@@ -1,0 +1,11 @@
+$breakpoints: (
+  'sp': 'screen and (max-width: $media-S)',
+  'pc': 'screen and (min-width: $mediaM-)',
+  'ie': 'all and (-ms-high-contrast: none)',
+) !default;
+
+@mixin mq($breakpoint: pc) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
