@@ -1,0 +1,193 @@
+// main: ../../default.scss
+.p-eitai {
+  &-guide {
+    text-align: center;
+    &--logo {
+      width: 102px;
+      margin: 0 auto;
+    }
+    &--ttl {
+      font-size: 3.6rem;
+      margin: 18px 0 24px;
+    }
+    &--subttl {
+      font-size: 2rem;
+      margin-bottom: 100px;
+    }
+  } //.p-eitai-guide
+  &-price {
+    background-image: url('../images/eitai_price_bg.jpg');
+    background-size: cover;
+    background-position: 100% 90%;
+    padding: 100px 0 40px;
+    @include flex();
+    &--wrap {
+      width: 320px;
+      margin: 0 120px;
+    }
+    &--cont {
+      width: 320px;
+      height: 270px;
+      padding-top: 50px;
+      background: rgba(255,255,255,.4);
+      border-radius: 50%;
+      margin: 0 0 40px;
+    }
+    &--label {
+      width: fit-content;
+      background: #2a003f;
+      color: #fff;
+      margin: 0 auto 20px;
+      padding: 2px 12px 4px 12px;
+    }
+    &--fee {
+      font-size: 2.4rem;
+      text-align: center;
+      &__strong {
+        font-size: 3rem;
+        margin: 0 4px 0 10px;
+      }
+      &__yen {
+        font-size: 1.8rem;
+      }
+    }
+    &--note {
+      width: 180px;
+      margin: 16px auto 0;
+      font-size: 1.6rem;
+      line-height: 1.8;
+    }
+    &--ttl {
+      width: 80px;
+      font-size: 2.8rem;
+      margin-top: 40px;
+      letter-spacing: 4px;
+    }
+  } //.p-eitai-price
+  &-chara {
+    padding: 80px 0 200px;
+    min-width: 1190px;
+    &--visual {
+      @include flex();
+      position: relative;
+    }
+    &--img {
+      &__left {
+        width: 600px;
+      }
+      &__right {
+        width: 300px;
+        margin: 170px 0 0 140px;
+      }
+      &__bg {
+        position: absolute;
+        width: 1040px;
+        height: 320px;
+        background: $gray;
+        left: 50px;
+        top: 220px;
+        z-index: -1;
+      }
+    }
+    &--wrap {
+      @include flex();
+    }
+    &--ttl {
+      font-size: 2.8rem;
+      margin: 0 80px 0 100px;
+      letter-spacing: 4px;
+    }
+    &--list {
+      margin: 140px 20px 0;
+      line-height: 2.2;
+      .fa-dot-circle {
+        color: $sunken_red;
+        margin-right: 8px;
+      }
+    }
+  } //.p-eitai-chara
+  &-flow {
+    padding-bottom: 150px;
+    &--ttl {
+      font-size: 2.8rem;
+      text-align: center;
+      min-width: 1190px;
+    }
+    &--wrap {
+      width: 1100px;
+      margin: 0 45px;
+      background: $gray;
+      padding: 140px 0 100px;
+      margin-top: -17px;
+    }
+    &--cont {
+      width: 960px;
+      margin: 0 70px;
+      background: #fff;
+      padding: 0 0 34px;
+    }
+    &--subttl {
+      text-align: center;
+      img {
+        width: inherit;
+        margin: -13px 0 20px;
+      }
+    }
+    &--text {
+      text-align: center;
+      font-size: 2.1rem;
+    }
+    &--border {
+      width: 2px;
+      height: 30px;
+      background: #000;
+      margin: 26px 549px 34px;
+    }
+    &--btn {
+      background: #000;
+      margin: 90px auto 0;
+      &:hover {
+        opacity: .8;
+      }
+      a {
+        color: #fff;
+      }
+    }
+  } //.p-eitai-flow
+  &-cemetery {
+    &--wrap {
+      @include flex();
+      position: relative;
+      min-width: 1190px;
+    }
+    &--bg {
+      position: absolute;
+      top: 140px;
+      left: 45px;
+      min-width: 1100px;
+      height: 350px;
+      background: $gray;
+      z-index: -1;
+    }
+    &--img {
+      width: 600px;
+    }
+    &--cont {
+      width: 545px;
+    }
+    &--subttl {
+      font-size: 2.8rem;
+      margin: 0 auto;
+      letter-spacing: 5px;
+      line-height: 1.9;
+    }
+    &--copy {
+      width: 324px;
+      margin: 70px auto 30px;
+      line-height: 1.9;
+    }
+  } //.p-eitai-cemetery
+  &-slider {
+    padding: 145px 0 130px;
+  } //.p-eitai-cemetery
+} //.p-eitai

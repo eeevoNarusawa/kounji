@@ -1,8 +1,17 @@
 // main: ../../default.scss
 // Font
 $iconFont: 'font Awesome 5 Free';
+$serif: 'Noto Serif JP', Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
 // @media
 $media-S: 767px;
 $mediaM-: 768px;
 $media-M: 991px;
 $mediaL-: 992px;
+
+// color
+$border_gray: #ddd;
+$gray: #f5f2f6;
+$red: #d40000;
+$sunken_red: #a69494;
+$jyusyoku: #2a003f;
+$news: #7e1a6a;

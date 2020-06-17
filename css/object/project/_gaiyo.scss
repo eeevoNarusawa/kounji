@@ -1,0 +1,136 @@
+// main: ../../default.scss
+.p-gaiyo {
+  &-ttl {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+  &-subttl {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 80px;
+  }
+  &-conts {
+    background-image: url('../images/gaiyo_conts_bg.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+    padding: 180px 0 450px;
+    &--copy {
+      font-size: 2.8rem;
+      color: #fff;
+      margin: 0 0 80px 220px;
+      line-height: 2.2;
+      letter-spacing: 4px;
+    }
+    &--text {
+      color: #fff;
+      margin-left: 220px;
+      line-height: 2.4;
+    }
+  }
+  &-overview {
+    padding: 50px 0 160px;
+    &--table {
+      margin: 70px auto 0;
+      letter-spacing: 5px;
+      .colon {
+        padding: 0 20px;
+      }
+    }
+  } //.p-gaiyo-overview
+  &-precept {
+    width: 1140px;
+    padding-bottom: 175px;
+    &--img {
+      @include flex();
+      margin: 0 20px;
+      &__item {
+        width: 480px;
+        margin: 0 30px;
+      }
+    }
+    &--copy {
+      @include flex();
+      background: $gray;
+      padding: 160px 0 30px;
+      margin-top: -160px;
+      &__item {
+        width: 480px;
+        line-height: 2.2;
+        margin: 32px 10px 0 50px;
+      }
+    }
+  } //.p-gaiyo-precept
+  &-auspicious {
+    position: relative;
+    padding: 220px 0 190px;
+    &--img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 550px;
+      z-index: 2;
+    }
+    &--wrap {
+      position: relative;
+      margin-left: 152px;
+      min-width: 1003px;
+      background: $gray;
+      @include flex();
+      padding: 230px 0 50px 35px;
+    }
+    &--ttl {
+      position: absolute;
+      top: -96px;
+      right: 400px;
+      font-size: 2.8rem;
+      letter-spacing: 3px;
+    }
+    &--text {
+      width: 440px;
+      line-height: 2;
+      margin-left: 35px;
+    }
+  }// .p-gaiyo-auspicious
+  &-history {
+    padding: 90px 0 140px;
+    &--ttl {
+      text-align: center;
+      font-size: 4rem;
+    }
+    &--table {
+      width: 780px;
+      margin: 40px auto 0;
+      border-bottom: 1px solid $border_gray;
+      tr {
+        border-top: 1px solid $border_gray;
+      }
+      th, td {
+        padding: 20px 0 20px 20px;
+      }
+    }
+  } //.p-gaiyo-history
+  &-slider {
+    &__items {
+
+    }
+  } //.p-gaiyo-slider
+  &-address {
+    padding: 124px 0 150px;
+    &--ttl {
+      text-align: center;
+      font-size: 4rem;
+    }
+    &--text {
+      text-align: center;
+      margin: 24px 0 16px;
+    }
+    &--maps {
+      margin-bottom: 16px;
+      &__link {
+        text-align: center;
+        text-decoration: underline;
+      }
+    }
+  }
+} //.p-gaiyo

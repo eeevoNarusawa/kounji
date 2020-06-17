@@ -1,0 +1,25 @@
+// main: ../../default.scss
+.p-comp {
+  &-wrap {
+    padding: 100px 0;
+  }
+  &-tel {
+    &--note {
+      text-align: center;
+      line-height: 2.1;
+    }
+  }
+  &-top {
+    width: 200px;
+    margin: 115px auto 0;
+    background: $jyusyoku;
+    text-align: center;
+    font-size: 1.6rem;
+    a {
+      color: #fff;
+    }
+    &__text {
+      padding: 14px 0;
+    }
+  }
+} //.p-comp

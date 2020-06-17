@@ -1,0 +1,18 @@
+// main: ../../default.scss
+.slick {
+  &-slide-arrow {
+    position: absolute;
+    bottom: -50px;
+    color: #8a8482;
+    &__prev {
+      left: 10%;
+    }
+    &__next {
+      left: 27%;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}

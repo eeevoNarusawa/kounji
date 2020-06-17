@@ -1,0 +1,14 @@
+// main: ../../default.scss
+.c-top {
+  &-vertical-ttl {
+    color: $sunken_red;
+    position: absolute;
+    top: 0;
+    right: 90px;
+    letter-spacing: 3px;
+    img {
+      width: 1px;
+      margin: 0 0 24px 13px;
+    }
+  }
+}

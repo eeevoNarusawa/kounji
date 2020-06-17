@@ -1,0 +1,196 @@
+// main: ../../default.scss
+.p-top {
+  &-about {
+    background-image: url('../images/top_about_bg.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+    padding: 183px 0 169px;
+    position: relative;
+    &__wrap {
+      width: 520px;
+      margin: 0 auto;
+    }
+    &--subttl {
+      font-size: 2.8rem;
+      line-height: 2.3;
+    }
+    &--copy {
+      margin: 65px 0 61px;
+      color: #fff;
+      line-height: 2;
+    }
+  }
+
+  &-btn {
+    &__about {
+      border: 1px solid #fff;
+      a {
+        color: #fff;
+      }
+      &:hover {
+        background: rgba(255,255,255,.2);
+      }
+    }
+    &__eitai {
+      background: #000;
+      margin: 0 auto;
+      a {
+        color: #fff;
+      }
+      &:hover {
+        background: rgba(0,0,0,.8);
+      }
+    }
+  }
+
+  &-eitai {
+    padding: 150px 0 200px;
+    &--logo {
+      width: 102px;
+      margin: 0 auto;
+    }
+    &--ttl {
+      font-size: 4rem;
+      text-align: center;
+      margin: 18px 0 100px;
+    }
+    &--wrap {
+      @include flex();
+      position: relative;
+    }
+    &--bg {
+      position: absolute;
+      top: 80px;
+      left: 20%;
+      width: 80%;
+      height: 500px;
+      background: $gray;
+    }
+    &--slider {
+      width: 50%;
+    }
+    &--cont {
+      width: 50%;
+      z-index: 2;
+    }
+    &--subttl {
+      font-size: 2.8rem;
+      margin: 0 auto;
+      letter-spacing: 3px;
+    }
+    &--copy {
+      width: 354px;
+      margin: 40px auto 30px;
+      line-height: 1.9;
+    }
+  }// .p-top-eitai
+
+  &-info {
+    padding-bottom: 168px;
+    &--wrap {
+      position: relative;
+      &__bg {
+        position: absolute;
+        left: 12%;
+        top: 44px;
+        width: 88%;
+        height: 540px;
+        background: $gray;
+        z-index: -1;
+      }
+    }
+    &--subttl {
+      font-size: 4rem;
+      padding: 135px 0 48px 46px;
+    }
+    &--copy {
+      margin: 0 0 84px 82px;
+      line-height: 2.1;
+    }
+    &--conts {
+      @include flex();
+      margin-left: 46px;
+      width: 1044px;
+    }
+    &--banner {
+      width: 500px;
+      margin-right: 22px;
+      a:hover {
+        opacity: .8;
+      }
+    }
+  } //.p-top-info
+
+  &-banner {
+    @include flex();
+    &__left,
+    &__right {
+      width: 50%;
+    }
+  }
+
+  &-blog {
+    padding: 122px 0 140px;
+    &--wrap {
+      @include flex();
+      width: 1190px;
+      position: relative;
+    }
+    &--ttl {
+      margin: 0 196px 0 72px;
+      &__main {
+        font-size: 3.2rem;
+        margin-left: 10px;
+      }
+      &__sub {
+        color: #9e9e9e;
+      }
+    }
+    &--conts {
+      min-width: 840px;
+      border-bottom: 1px solid #dfdfdf;
+      margin-top: 70px;
+    }
+    &--item {
+      @include flex();
+      padding: 34px 0;
+      border-top: 1px solid #dfdfdf;
+      &__cat {
+        width: 120px;
+        text-align: center;
+        font-size: 1.4rem;
+        background: $jyusyoku;
+        padding: 3px 0 5px;
+        margin-top: 1px;
+        a {
+          color: #fff;
+        }
+      }
+      &__date {
+        margin: 0 20px 0 40px;
+      }
+      &__ttl {
+        width: 530px;
+      }
+      &__brackets {
+        text-align: right;
+        color: $red;
+      }
+    }
+    &--link {
+      position: absolute;
+      bottom: 0;
+      left: 72px;
+      font-size: 1.4rem;
+      border-bottom: 2px solid $red;
+      padding-bottom: 5px;
+      a {
+        color: #000;
+      }
+      &__brackets {
+        color: $red;
+        margin-left: 10px;
+      }
+    }
+  } //.p-top-blog
+} //.p-top

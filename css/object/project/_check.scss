@@ -1,0 +1,37 @@
+// main: ../../default.scss
+.p-check {
+  &-copy {
+    text-align: center;
+  }
+  &-wrap {
+    margin: 70px 0 150px;
+    .p-contact-wrap--form {
+      &__tr {
+        margin-bottom: 0;
+      }
+      &__th {
+        width: 200px;
+        padding-top: 20px;
+      }
+      &__must {
+        display: none;
+      }
+      &__field {
+        border-left: 1px solid #aaa;
+        padding: 20px 0 30px 50px;
+      }
+      &__privacypolicy {
+        padding-top: 25px;
+      }
+    }
+  }
+  &-back {
+    margin: 20px auto 0;
+    input {
+      border: 0;
+      background: inherit;
+      border-bottom: 1px solid #000;
+      border-radius: 0;
+    }
+  }
+} //.p-check

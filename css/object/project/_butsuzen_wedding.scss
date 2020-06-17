@@ -1,0 +1,85 @@
+// main: ../../default.scss
+.p-butsuzen {
+  &-ttl {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 100px;
+  }
+  &-about {
+    background-image: url('../images/butsuzen_about.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    min-width: 1190px;
+    padding: 268px 0 388px;
+    position: relative;
+    &--ttl {
+      color: #fff;
+      position: absolute;
+      top: 0;
+      right: 90px;
+      letter-spacing: 3px;
+      img {
+        width: 1px;
+        margin: 0 0 24px 13px;
+      }
+    }
+    &--subttl {
+      color: #fff;
+      font-size: 3.2rem;
+      line-height: 1.9;
+      margin-left: 300px;
+    }
+    &--copy {
+      color: #fff;
+      font-size: 1.6rem;
+      line-height: 2.2;
+      margin: 72px 0 0 300px;
+    }
+  } //.p-butsuzen-about
+  &-vow {
+    padding: 143px 0 150px;
+    &--wrap {
+      @include flex();
+      position: relative;
+      min-width: 1190px;
+    }
+    &--bg {
+      position: absolute;
+      top: 70px;
+      left: 190px;
+      min-width: 1000px;
+      height: 460px;
+      background: $gray;
+      z-index: -1;
+    }
+    &--img {
+      width: 595px;
+    }
+    &--cont {
+      width: 595px;
+    }
+    &--subttl {
+      font-size: 2.1rem;
+      margin: 20px auto 0;
+      letter-spacing: 5px;
+      line-height: 1.9;
+    }
+    &--copy {
+      width: fit-content;
+      margin: 70px auto 30px;
+      line-height: 1.9;
+      font-size: 1.6rem;
+    }
+    &--btn {
+      margin: 170px auto 0;
+      border: 1px solid #000;
+      font-size: 1.4rem;
+      a {
+        color: #000;
+      }
+      &:hover {
+        opacity: .8;
+      }
+    }
+  } //.p-butsuzen-vow
+} //.p-butsuzen

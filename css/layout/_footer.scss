@@ -1,7 +1,41 @@
 // main: ../default.scss
-@media screen and (max-width: $media-S) {
+footer {
+  min-width: 1190px;
+  background: $gray;
+  padding: 40px 0;
+  @include flex();
 }
-@media screen and (min-width: $mediaM-) {
-}
-@media screen and (min-width: $mediaL-) {
+
+.l-footer {
+  &-name {
+    font-weight: bold;
+    margin-left: 51px;
+  }
+  &-address {
+    font-size: 1.6rem;
+    margin: 0 29px;
+  }
+  &tel {
+    font-size: 1.6rem;
+  }
+  &-map {
+    background: $red;
+    text-align: center;
+    color: #fff;
+    padding: 4px 12px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    margin: 0 240px 0 28px;
+  }
+  &-pp {
+    font-size: 1.2rem;
+    &__icon {
+      background: #000;
+      color: #fff;
+      font-size: 1.2rem;
+      border-radius: 50%;
+      padding: 5px;
+      margin-right: 6px;
+    }
+  }
 }

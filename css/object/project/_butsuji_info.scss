@@ -1,0 +1,158 @@
+// main: ../../default.scss
+.p-butsuji {
+  &-ttl {
+    bottom: -220px;
+  }
+  &-copy {
+    font-size: 4rem;
+    text-align: center;
+  }
+  &-catch {
+    margin: 100px 0 140px;
+  }
+  &-about {
+    @include flex();
+    position: relative;
+    min-width: 1190px;
+    &--bg {
+      position: absolute;
+      top: 160px;
+      left: 0;
+      width: 1140px;
+      height: 500px;
+      background: $gray;
+      z-index: -1;
+    }
+    &--cont {
+      width: 470px;
+      margin-left: 40px
+    }
+    &--desc {
+      margin-top: 40px;
+      line-height: 2.1;
+    }
+  } //.p-butsuji-about
+  &-flow {
+    padding: 180px 0 120px;
+    &--ttl {
+      text-align: center;
+      font-size: 2.8rem;
+      margin: 0 auto -16px;
+      min-width: 1090px;
+    }
+    &--wrap {
+      width: 1090px;
+      margin: 0 auto;
+      padding: 140px 0 85px;
+      background: $gray;
+    }
+    &--cont {
+      width: 950px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 45px 0;
+      text-align: center;
+      position: relative;
+    }
+    &--img {
+      position: absolute;
+      top: -20px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      img {
+        width: auto;
+      }
+    }
+    &--text {
+      line-height: 1.9;
+    }
+    &--border {
+      width: 2px;
+      height: 40px;
+      background: #000;
+      margin: 40px auto 50px;
+    }
+  } //.p-butsuji-flow
+  &-reason {
+    @include flex();
+    position: relative;
+    min-width: 1190px;
+    padding-bottom: 210px;
+    &--bg {
+      position: absolute;
+      top: 85px;
+      right: 0;
+      width: 1040px;
+      height: 450px;
+      background: $gray;
+      z-index: -1;
+    }
+    &--img {
+      width: 570px;
+    }
+    &--cont {
+      width: 344px;
+      margin: 0 auto;
+    }
+    &--subttl {
+      font-size: 2.8rem;
+      margin: 0 auto;
+      letter-spacing: 4px;
+      line-height: 2;
+    }
+    &--copy {
+      margin-top: 60px;
+      line-height: 2.1;
+    }
+  } //.p-butsuji-reason
+  &-various {
+    min-width: 1190px;
+    padding-bottom: 150px;
+    &--ttl {
+      font-size: 4rem;
+      text-align: center;
+      letter-spacing: 4px;
+    }
+    &--wrap {
+      width: 800px;
+      margin: 43px auto 0;
+    }
+    &--table {
+      letter-spacing: 2px;
+      border-bottom: 1px solid $border_gray;
+      tr {
+        border-top: 1px solid $border_gray;
+      }
+      th {
+        width: 145px;
+        padding: 0 40px 0 20px;
+        vertical-align: middle;
+      }
+      td {
+        width: 580px;
+        padding: 38px 15px 38px 0;
+      }
+    }
+    &--note {
+      &__ttl {
+        margin: 64px 0 28px;
+        text-align: center;
+      }
+      &__text {
+        margin-bottom: 115px;
+      }
+    }
+    &--btn {
+      border: 1px solid #000;
+      margin: 0 auto;
+      a {
+        color: #000;
+        font-weight: bold;
+      }
+      &:hover {
+        opacity: .8;
+      }
+    }
+  } //.p-butsuji-various
+} //.p-butsuji

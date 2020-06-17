@@ -5,3 +5,45 @@
 }
 @media screen and (min-width: $mediaL-) {
 }
+
+.nav {
+  width: 250px;
+  height: 100vh;
+  border-right: 1px solid $border_gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  &--logo {
+    width: 91px;
+    margin: 68px 0 44px 43px;
+  }
+  &--list {
+    font-family: $serif;
+    font-size: 1.9rem;
+    a {
+      color: #000;
+    }
+    li {
+      padding: 12px 0 12px 43px;
+      &:hover {
+        background: rgba(245,242,246,.7);
+      }
+    }
+  } //.nav-list
+  &--icon {
+    margin: 14px 0 0 43px;
+    font-size: 2.2rem;
+    i {
+      color: #000;
+      &:hover {
+        opacity: .6;
+      }
+    }
+  }
+  &--copyright {
+    position: absolute;
+    bottom: 20px;
+    left: 43px;
+    font-size: 10px;
+  }
+} //.nav

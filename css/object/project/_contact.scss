@@ -1,0 +1,101 @@
+// main: ../../default.scss
+.p-contact {
+  &-tel {
+    &--note {
+      text-align: center;
+    }
+    &--btn {
+      margin: 32px auto 0;
+      border: 1px solid #000;
+      font-size: 2.8rem;
+      width: 378px;
+      a {
+        color: #000;
+      }
+    }
+  } //.p-contact-tel
+  &-wrap {
+    margin: 120px 0;
+    &--note {
+      text-align: center;
+    }
+    &--form {
+      width: 900px;
+      margin: 70px auto 0;
+      &__tr {
+        @include flex();
+        margin-bottom: 30px;
+      }
+      &__th {
+        width: 160px;
+        margin-top: 4px;
+      }
+      &__must {
+        width: 60px;
+        font-size: 1.6rem;
+        background: $red;
+        color: #fff;
+        text-align: center;
+        margin: 4px 50px 0 30px;
+        display: inline-table;
+        line-height: 27px;
+      }
+      &__field {
+        width: 590px;
+        input {
+          width: 590px;
+          background: #f9f9f9;
+          border: 0;
+          padding: 10px 5px;
+          font-size: 1.8rem;
+        }
+        textarea {
+          width: 590px;
+          background: #f9f9f9;
+          border: 0;
+          padding: 10px 5px;
+          font-size: 1.8rem;
+        }
+        .error {
+          display: block;
+          font-size: 1.4rem;
+          color: $red;
+        }
+      }
+      &__yubin {
+        width: 220px;
+        input {
+          width: 160px;
+          margin-left: 10px;
+        }
+      }
+      &__privacypolicy {
+        input {
+          width: 20px;
+        }
+        a {
+          color: #000;
+          text-decoration: underline;
+        }
+        .error {
+          display: contents;
+        }
+      }
+      &__btn {
+        margin: 0 auto;
+        input {
+          width: 200px;
+          border: 0;
+          background: $jyusyoku;
+          color: #fff;
+          padding: 14px 0;
+          font-size: 1.6rem;
+          margin: 70px auto 0;
+          display: block;
+          cursor: pointer;
+          border-radius: 0;
+        }
+      }
+    }
+  } //.p-contact-wrap
+} //.p-contact

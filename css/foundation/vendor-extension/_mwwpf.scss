@@ -17,17 +17,7 @@ input[type="submit"]::focus,
 input[type="button"]::focus {
   outline-offset: -2px;
 }
-.screen-reader-response {
+
+.mwform-checkbox-field-text {
   display: none;
-}
-.wpcf7-validation-errors {
-  text-align: center;
-  color: #f00;
-  font-size: 1.4rem;
-  margin-top: 16px;
-}
-.wpcf7-mail-sent-ok {
-  text-align: center;
-  font-size: 1.4rem;
-  margin-top: 16px;
 }

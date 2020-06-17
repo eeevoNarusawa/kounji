@@ -1,13 +1,14 @@
 // main: ../../default.scss
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 
 html {
   font-size: 62.5%;
 }
 body{
-  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 1.6rem;
+  font-weight: 400;
 }
 .clearfix {
   min-height: 1px;
@@ -22,32 +23,16 @@ body{
 * html .clearfix {
   height: 1px;
 }
-/* iphone submit css reset */
-input[type="submit"],
-input[type="button"] {
-  -webkit-box-sizing: content-box;
-  -webkit-appearance: button;
-  appearance: button;
-  box-sizing: border-box;
-  cursor: pointer;
-}
-input[type="submit"]::-webkit-search-decoration,
-input[type="button"]::-webkit-search-decoration {
-  display: none;
-}
-input[type="submit"]::focus,
-input[type="button"]::focus {
-  outline-offset: -2px;
-}
 a{
   text-decoration: none;
+  color: #34abd3;
 }
 img {
   width: 100%;
   vertical-align: bottom;
 }
 
-@media screen and (min-width: $mediaL-) {
+@media screen and (min-width: $mediaM-) {
   body {
     font-size: 1.8rem;
   }

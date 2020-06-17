@@ -1,0 +1,10 @@
+// main: ../default.scss
+.u-font {
+  &-serif {
+    font-family: $serif;
+    &__white {
+      font-family: $serif;
+      color: #fff;
+    }
+  }
+}
