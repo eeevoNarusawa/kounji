@@ -4,28 +4,50 @@
     text-align: center;
     font-size: 4rem;
     margin-bottom: 10px;
+    font-weight: 500;
+    @include mq(sp) {
+      font-size: 2.5rem;
+    }
   }
   &-subttl {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 80px;
+    @include mq(sp) {
+      font-size: 1.8rem;
+    }
   }
   &-conts {
     background-image: url('../images/gaiyo_conts_bg.jpg');
     background-size: cover;
     background-position: 100% 100%;
     padding: 180px 0 450px;
+    @include mq(sp) {
+      background-image: url('../images/sp_gaiyo_conts_bg.jpg');
+      background-position: 100% 0%;
+      padding: 500px 0 100px;
+    }
     &--copy {
       font-size: 2.8rem;
       color: #fff;
       margin: 0 0 80px 220px;
       line-height: 2.2;
       letter-spacing: 4px;
+      font-weight: 500;
+      @include mq(sp) {
+        font-size: 2.1rem;
+        margin: 0 auto;
+        width: $sp_cont;
+      }
     }
     &--text {
       color: #fff;
       margin-left: 220px;
       line-height: 2.4;
+      @include mq(sp) {
+        width: $sp_cont;
+        margin: 50px auto 0;
+      }
     }
   }
   &-overview {
@@ -36,40 +58,75 @@
       .colon {
         padding: 0 20px;
       }
+      @include mq(sp) {
+        width: $sp_cont;
+        td {
+          padding-bottom: 16px;
+        }
+        .colon {
+          padding: 0 3%;
+          width: fit-content;
+        }
+      }
     }
   } //.p-gaiyo-overview
   &-precept {
+    @include flex();
     width: 1140px;
     padding-bottom: 175px;
-    &--img {
-      @include flex();
-      margin: 0 20px;
-      &__item {
-        width: 480px;
-        margin: 0 30px;
+    position: relative;
+    @include mq(sp) {
+      @include flex(inherit, inherit);
+      width: $sp_cont;
+      margin: 0 auto;
+      padding-bottom: 90px;
+    }
+    &--wrap {
+      width: 480px;
+      margin: 0 0 0 50px;
+      @include mq(sp) {
+        position: relative;
+        width: 100%;
+        margin: 0 0 80px;
       }
     }
     &--copy {
-      @include flex();
+      line-height: 2.2;
+      margin-top: 32px;
+    }
+    &--bg {
+      position: absolute;
+      top: 160px;
+      left: 0;
+      width: 1140px;
+      height: 360px;
       background: $gray;
-      padding: 160px 0 30px;
-      margin-top: -160px;
-      &__item {
-        width: 480px;
-        line-height: 2.2;
-        margin: 32px 10px 0 50px;
+      z-index: -1;
+      @include mq(sp) {
+        width: 100%;
+        height: 280px;
+        right: -10%;
+        left: inherit;
       }
     }
   } //.p-gaiyo-precept
   &-auspicious {
     position: relative;
     padding: 220px 0 190px;
+    @include mq(sp) {
+      position: inherit;
+      padding: 0 0 60px;
+    }
     &--img {
       position: absolute;
       top: 0;
       left: 0;
       width: 550px;
       z-index: 2;
+      @include mq(sp){
+        position: inherit;
+        width: 100%;
+      }
     }
     &--wrap {
       position: relative;
@@ -78,6 +135,14 @@
       background: $gray;
       @include flex();
       padding: 230px 0 50px 35px;
+      @include mq(sp) {
+        @include flex(inherit, inherit);
+        margin: 0 auto;
+        width: $sp_cont;
+        min-width: inherit;
+        background: none;
+        padding: 60px 0;
+      }
     }
     &--ttl {
       position: absolute;
@@ -85,18 +150,47 @@
       right: 400px;
       font-size: 2.8rem;
       letter-spacing: 3px;
+      @include mq(sp) {
+        position: inherit;
+        top: inherit;
+        right: inherit;
+        @include offVertical();
+        margin-bottom: 40px;
+      }
     }
     &--text {
       width: 440px;
       line-height: 2;
       margin-left: 35px;
+      @include mq(sp) {
+        width: 100%;
+        margin: 0;
+      }
+    }
+    &--bg {
+      position: absolute;
+      top: 0;
+      right: -10%;
+      background: $gray;
+      width: 100%;
+      height: 880px;
+      z-index: -1;
     }
   }// .p-gaiyo-auspicious
   &-history {
-    padding: 90px 0 140px;
+    padding: 80px 0 140px;
+    min-width: 1190px;
+    @include mq(sp) {
+      min-width: 100%;
+      padding: 60px 0 100px;
+    }
     &--ttl {
       text-align: center;
       font-size: 4rem;
+      font-weight: 500;
+      @include mq(sp) {
+        font-size: 2.5rem;
+      }
     }
     &--table {
       width: 780px;
@@ -108,25 +202,58 @@
       th, td {
         padding: 20px 0 20px 20px;
       }
+      @include mq(sp) {
+        width: $sp_cont;
+        margin: 60px auto 0;
+        th, td {
+          width: 100%;
+          display: block;
+        }
+        th {
+          padding: 30px 0 5px;
+        }
+        td {
+          padding: 0 0 30px;
+        }
+      }
     }
   } //.p-gaiyo-history
   &-slider {
-    &__items {
-
+    @include mq(sp) {
+      width: 100%;
+      height: auto;
     }
-  } //.p-gaiyo-slider
+  }
   &-address {
     padding: 124px 0 150px;
+    min-width: 1190px;
+    @include mq(sp) {
+      padding: 77px 0 80px;
+      min-width: 100%;
+    }
     &--ttl {
       text-align: center;
       font-size: 4rem;
+      font-weight: 500;
+      @include mq(sp) {
+        font-size: 2.5rem;
+      }
     }
     &--text {
       text-align: center;
       margin: 24px 0 16px;
+      @include mq(sp) {
+        margin: 35px 0;
+      }
     }
     &--maps {
       margin-bottom: 16px;
+      @include mq(sp) {
+        iframe {
+          width: 100%;
+          height: 300px;
+        }
+      }
       &__link {
         text-align: center;
         text-decoration: underline;

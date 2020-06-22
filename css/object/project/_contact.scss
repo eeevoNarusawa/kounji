@@ -1,8 +1,17 @@
 // main: ../../default.scss
 .p-contact {
   &-tel {
+    @include mq(sp) {
+      width: $sp_cont;
+      margin: 0 auto;
+    }
     &--note {
       text-align: center;
+      @include mq(sp) {
+        text-align: inherit;
+        font-size: 1.8rem;
+        line-height: 1.7;
+      }
     }
     &--btn {
       margin: 32px auto 0;
@@ -12,23 +21,46 @@
       a {
         color: #000;
       }
+      @include mq(sp) {
+        width: 100%;
+      }
     }
   } //.p-contact-tel
   &-wrap {
     margin: 120px 0;
+    @include mq(sp) {
+      width: 100%;
+      margin: 90px auto 0;
+    }
     &--note {
       text-align: center;
+      @include mq(sp) {
+        width: $sp_cont;
+        margin: 0 auto;
+        text-align: inherit;
+      }
     }
     &--form {
       width: 900px;
       margin: 70px auto 0;
+      @include mq(sp) {
+        width: $sp_cont;
+      }
       &__tr {
         @include flex();
         margin-bottom: 30px;
+        @include mq(sp) {
+          &__yubin {
+            margin-bottom: 10px;
+          }
+        }
       }
       &__th {
         width: 160px;
         margin-top: 4px;
+        @include mq(sp) {
+          width: fit-content;
+        }
       }
       &__must {
         width: 60px;
@@ -61,12 +93,36 @@
           font-size: 1.4rem;
           color: $red;
         }
+        @include mq(sp) {
+          display: block;
+          width: 100%;
+          margin-top: 12px;
+          input {
+            width: 98%;
+          }
+          textarea {
+            width: 98%;
+          }
+          .error {
+
+          }
+        }
       }
       &__yubin {
         width: 220px;
         input {
           width: 160px;
           margin-left: 10px;
+        }
+        @include mq(sp) {
+          width: 100%;
+        }
+      }
+      &__note {
+        font-size: 1.2rem;
+        color: #757575;
+        a {
+          text-decoration: underline;
         }
       }
       &__privacypolicy {
@@ -86,7 +142,7 @@
         input {
           width: 200px;
           border: 0;
-          background: $jyusyoku;
+          background: $dark_purple;
           color: #fff;
           padding: 14px 0;
           font-size: 1.6rem;

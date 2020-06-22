@@ -2,21 +2,38 @@
 footer {
   min-width: 1190px;
   background: $gray;
-  padding: 40px 0;
+  padding: 40px 0 20px;
   @include flex();
+  @include mq(sp) {
+    min-width: 100%;
+  }
 }
 
 .l-footer {
   &-name {
     font-weight: bold;
     margin-left: 51px;
+    @include mq(sp) {
+      margin-left: 0;
+      width: $sp_cont;
+      margin: 0 auto 12px;
+      font-size: 1.8rem;
+    }
   }
   &-address {
     font-size: 1.6rem;
     margin: 0 29px;
+    @include mq(sp) {
+      width: $sp_cont;
+      margin: 0 auto;
+    }
   }
-  &tel {
+  &-tel {
     font-size: 1.6rem;
+    @include mq(sp) {
+      width: $sp_cont;
+      margin: 4px auto 12px;
+    }
   }
   &-map {
     background: $red;
@@ -26,9 +43,24 @@ footer {
     font-size: 1.2rem;
     border-radius: 20px;
     margin: 0 240px 0 28px;
+    @include mq(sp) {
+      margin: 0 auto 0 5%;
+      .fas {
+        margin-left: 5px;
+      }
+    }
+    a {
+      color: #fff;
+    }
+    &:hover {
+      opacity: .8;
+    }
   }
   &-pp {
     font-size: 1.2rem;
+    @include mq(sp) {
+      margin: 0 5% 0 0;
+    }
     &__icon {
       background: #000;
       color: #fff;
@@ -36,6 +68,12 @@ footer {
       border-radius: 50%;
       padding: 5px;
       margin-right: 6px;
+    }
+    a {
+      color: #000;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }

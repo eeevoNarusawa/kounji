@@ -4,14 +4,24 @@
     text-align: center;
     font-size: 4rem;
     margin-bottom: 100px;
+    font-weight: 500;
+    @include mq(sp) {
+      font-size: 2.5rem;
+      letter-spacing: 3px;
+      line-height: 1.5;
+    }
   }
   &-about {
     background-image: url('../images/butsuzen_about.jpg');
     background-size: cover;
     background-position: 50% 50%;
-    min-width: 1190px;
     padding: 268px 0 388px;
     position: relative;
+    @include mq(sp) {
+      background-image: url('../images/sp_butsuzen_about.jpg');
+      padding: 50px 0 460px;
+      position: inherit;
+    }
     &--ttl {
       color: #fff;
       position: absolute;
@@ -22,26 +32,63 @@
         width: 1px;
         margin: 0 0 24px 13px;
       }
+      @include mq(sp) {
+        @include offVertical();
+        position: inherit;
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+        width: 225px;
+        &:before {
+          content: "";
+          flex-grow: 1;
+          height: 1px;
+          background: #fff;
+          display: block;
+          margin-right: 20px;
+        }
+        img {
+          display: none;
+        }
+      }
     }
     &--subttl {
       color: #fff;
       font-size: 3.2rem;
+      font-weight: 500;
       line-height: 1.9;
       margin-left: 300px;
+      @include mq(sp) {
+        font-size: 2.1rem;
+        width: $sp_cont;
+        margin: 52px auto 95px;
+        line-height: 2.2;
+      }
     }
     &--copy {
       color: #fff;
       font-size: 1.6rem;
       line-height: 2.2;
       margin: 72px 0 0 300px;
+      @include mq(sp) {
+        width: $sp_cont;
+        margin: 0 auto;
+      }
     }
   } //.p-butsuzen-about
   &-vow {
     padding: 143px 0 150px;
+    @include mq(sp) {
+      padding: 60px 0 80px;
+    }
     &--wrap {
       @include flex();
       position: relative;
       min-width: 1190px;
+      @include mq(sp) {
+        @include flex(inherit, inherit);
+        min-width: 100%;
+      }
     }
     &--bg {
       position: absolute;
@@ -51,24 +98,46 @@
       height: 460px;
       background: $gray;
       z-index: -1;
+      @include mq(sp) {
+        left: 10%;
+        min-width: 100%;
+        height: 720px;
+      }
     }
     &--img {
       width: 595px;
+      @include mq(sp) {
+        width: 100%;
+      }
     }
     &--cont {
       width: 595px;
+      @include mq(sp) {
+        width: $sp_cont;
+        margin: 0 auto;
+      }
     }
     &--subttl {
       font-size: 2.1rem;
+      font-weight: 500;
       margin: 20px auto 0;
       letter-spacing: 5px;
       line-height: 1.9;
+      @include mq(sp) {
+        @include offVertical();
+        font-size: 2.5rem;
+        margin: 65px 0 50px;
+        line-height: 1.6;
+      }
     }
     &--copy {
       width: fit-content;
       margin: 70px auto 30px;
       line-height: 1.9;
       font-size: 1.6rem;
+      @include mq(sp) {
+        margin: 0;
+      }
     }
     &--btn {
       margin: 170px auto 0;
@@ -79,6 +148,10 @@
       }
       &:hover {
         opacity: .8;
+      }
+      @include mq(sp) {
+        width: $sp_cont;
+        margin: 120px auto 0;
       }
     }
   } //.p-butsuzen-vow

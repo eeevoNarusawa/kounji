@@ -1,21 +1,25 @@
 // main: ../default.scss
-@media screen and (max-width: $media-S) {
+#sidebar {
+  width: 250px;
+  height: 100vh;
+  min-height: 590px;
+  position: relative;
+  float: left;
 }
-@media screen and (min-width: $mediaM-) {
+.fixed {
+  position: fixed;
 }
-@media screen and (min-width: $mediaL-) {
-}
-
 .nav {
   width: 250px;
   height: 100vh;
+  min-height: 590px;
   border-right: 1px solid $border_gray;
-  position: fixed;
   top: 0;
   left: 0;
   &--logo {
     width: 91px;
-    margin: 68px 0 44px 43px;
+    margin: 0 0 44px 43px;
+    padding-top: 68px;
   }
   &--list {
     font-family: $serif;

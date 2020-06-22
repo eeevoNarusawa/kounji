@@ -8,12 +8,19 @@
   margin: $marginAuto;
 }
 
-@mixin flex() {
-  display: flex;
-  flex-wrap: wrap;
+@mixin flex($flex: flex, $wrap: wrap) {
+  display: $flex;
+  flex-wrap: $wrap;
 }
 
 @mixin tableCell($tableCell: table-cell, $verticalAlign: middle) {
   display: $tableCell;
   vertical-align: $verticalAlign;
+}
+
+@mixin offVertical() {
+  -webkit-writing-mode: inherit;
+  -ms-writing-mode: inherit;
+  -o-writing-mode: inherit;
+  writing-mode: inherit;
 }

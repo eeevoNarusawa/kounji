@@ -1,0 +1,22 @@
+// main: ../default.scss
+.u-cat {
+  &-item {
+    width: fit-content;
+    padding: 4px 10px;
+    a {
+      color: #fff;
+    }
+  }
+  &-news {
+    background: $purple;
+  }
+  &-jyusyoku {
+    background: $dark_purple;
+  }
+  &-diary {
+    background: $red;
+  }
+  &-nokotsudo {
+    background: $orange;
+  }
+}

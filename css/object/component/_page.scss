@@ -2,6 +2,10 @@
 .c-page {
   &-visual {
     position: relative;
+    @include mq(sp) {
+      padding-top: 95px;
+      width: 100%;
+    }
   }
   &-ttl {
     position: absolute;
@@ -12,10 +16,22 @@
     padding: 50px 32px 70px;
     border-top: 6px solid $red;
     letter-spacing: 3px;
+    @include mq(sp) {
+      right: 20px;
+      font-size: 1.6rem;
+      font-weight: 500;
+      padding: 34px 20px 40px;
+    }
   }
   &-breadcrumbs {
     font-size: 1.6rem;
-    margin: 30px 0 0 51px;
+    margin: 30px 51px 0;
+    z-index: 3;
+    position: relative;
+    @include mq(sp) {
+      font-size: 1.2rem;
+      margin: 20px 5% 0;
+    }
     &__arrow {
       margin: 0 16px;
     }
@@ -29,5 +45,14 @@
   }
   &-wrap {
     padding-top: 150px;
+    @include mq(sp) {
+      padding-top: 80px;
+    }
+  }
+  &--min-width {
+    min-width: 1190px;
+    @include mq(sp) {
+      min-width: 100%;
+    }
   }
 }

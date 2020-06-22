@@ -12,7 +12,7 @@
   &-top {
     width: 200px;
     margin: 115px auto 0;
-    background: $jyusyoku;
+    background: $dark_purple;
     text-align: center;
     font-size: 1.6rem;
     a {
@@ -20,6 +20,19 @@
     }
     &__text {
       padding: 14px 0;
+    }
+  }
+  @include mq(sp) {
+    &-wrap {
+      padding: 70px 0 80px;
+    }
+    &-tel {
+      width: $sp_cont;
+      margin: 0 auto;
+    }
+    &-top {
+      width: 220px;
+      margin: 77px auto 0;
     }
   }
 } //.p-comp

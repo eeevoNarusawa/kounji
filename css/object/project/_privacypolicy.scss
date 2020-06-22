@@ -1,28 +1,57 @@
 // main: ../../default.scss
+.p-privacypolicy__sp {
+  @include mq(sp) {
+    padding-top: 95px;
+  }
+}
 .p-privacypolicy {
   padding: 50px 0 150px;
+  @include mq(sp) {
+    padding: 50px 0 60px;
+    width: $sp_cont;
+    margin: 0 auto;
+  }
   &-ttl {
     text-align: center;
     font-size: 4rem;
+    font-weight: 500;
+    @include mq(sp) {
+      font-size: 2.5rem;
+    }
   }
   &-copy {
     text-align: center;
     margin: 80px auto 0;
     width: 90%;
-
+    @include mq(sp) {
+      text-align: inherit;
+      margin: 50px 0;
+      width: 100%;
+    }
   }
   &-wrap {
     &--ttl {
       font-size: 2.6rem;
       margin: 50px 0 0 80px;
+      font-weight: 500;
+      @include mq(sp) {
+        font-size: 2.2rem;
+        margin: 50px 0 0;
+      }
     }
     &--text {
       margin: 30px 9% 0;
       line-height: 1.8;
+      @include mq(sp) {
+        margin: 30px 5% 0;
+      }
     }
     &--list {
       margin: 15px 13% 0;
       line-height: 1.8;
+      @include mq(sp) {
+        margin: 15px 7% 0;
+      }
     }
   }
 } //.p-privacypolicy

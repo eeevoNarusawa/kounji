@@ -1,0 +1,65 @@
+// main: ../../default.scss
+.p-single {
+  &-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+    @include mq(sp) {
+      width: $sp_cont;
+    }
+  }
+  &-date {
+    @include flex();
+    &--cat {
+      margin-right: 20px;
+    }
+  }
+  &-ttl {
+    font-size: 2.8rem;
+    margin: 12px 0;
+    @include mq(sp) {
+      font-size: 2.2rem;
+      margin: 16px 0;
+    }
+  }
+  &-cont {
+    img {
+      height: inherit;
+      margin-bottom: 28px;
+    }
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 28px;
+      border-left: 10px solid $purple;
+      padding-left: 12px;
+    }
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 28px;
+      @include mq(sp) {
+        font-size: 1.8rem;
+      }
+    }
+    p {
+      line-height: 2;
+      margin-bottom: 28px;
+    }
+  }
+  &-back {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 1.4rem;
+    color: $red;
+    a {
+      color: #000;
+      padding-bottom: 5px;
+      border-bottom: 2px solid $red;
+      font-weight: 500;
+      font-size: 1.8rem;
+      margin-left: 8px;
+      &:hover {
+        opacity: .7;
+      }
+    }
+  }
+}

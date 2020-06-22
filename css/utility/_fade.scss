@@ -1,0 +1,28 @@
+// main: ../default.scss
+.u-fade-logo{
+　opacity:0;
+  animation-name:logo;
+  animation-duration:360s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes logo {
+0% {
+ opacity: 0;
+ transform: translateY(-30px);
+}
+2% {
+ opacity: 0;
+ transform: translateY(-30px);
+}
+  3%{
+    opacity: 1;
+     transform: translateY(0);
+  }
+}
+
+.u-fade-up {
+  opacity : 0;
+  transform: translateY(20px);
+  transition: 1s;
+}

@@ -1,7 +1,16 @@
 // main: ../default.scss
-@media screen and (max-width: $media-S) {
-}
-@media screen and (min-width: $mediaM-) {
-}
-@media screen and (min-width: $mediaL-) {
+@include mq(sp) {
+  .l-header {
+    width: 100%;
+    background: #fff;
+    padding: 30px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    &-logo {
+      width: 149px;
+      margin-left: 5%;
+    }
+  }
 }

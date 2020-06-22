@@ -4,11 +4,25 @@
     position: absolute;
     bottom: -50px;
     color: #8a8482;
+    @include mq(sp) {
+      bottom: -25px;
+      background: #fff;
+      padding: 16px 0;
+      z-index: 2;
+      width: 20%;
+      text-align: center;
+    }
     &__prev {
       left: 10%;
+      @include mq(sp) {
+        left: 0;
+      }
     }
     &__next {
       left: 27%;
+      @include mq(sp) {
+        left: 20%;
+      }
     }
     &:hover {
       cursor: pointer;

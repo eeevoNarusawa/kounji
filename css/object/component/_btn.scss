@@ -3,9 +3,13 @@
   width: 300px;
   text-align: center;
   box-sizing: border-box;
+  @include mq(sp) {
+    width: 100%;
+  }
   &__text {
     padding: 14px 0;
     position: relative;
+    font-weight: bold;
     &:before {
       content: '';
       position: absolute;
@@ -17,6 +21,9 @@
       -webkit-transform: translateX(-50%);
       transform: translateX(-50%);/*位置調整*/
       background-color: $red;/*線の色*/
+    }
+    @include mq(sp) {
+      padding: 18px 0;
     }
   }
 }

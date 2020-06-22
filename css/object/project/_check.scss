@@ -5,13 +5,26 @@
   }
   &-wrap {
     margin: 70px 0 150px;
+    @include mq(sp) {
+      margin: 70px 0 80px;
+    }
     .p-contact-wrap--form {
       &__tr {
         margin-bottom: 0;
+        @include mq(sp) {
+          margin-bottom: 20px;
+          &__yubin {
+            margin-bottom: 0;
+          }
+        }
       }
       &__th {
         width: 200px;
         padding-top: 20px;
+        @include mq(sp) {
+          width: 100%;
+          padding-top: 0;
+        }
       }
       &__must {
         display: none;
@@ -19,9 +32,16 @@
       &__field {
         border-left: 1px solid #aaa;
         padding: 20px 0 30px 50px;
+        @include mq(sp) {
+          border: 1px solid #aaa;
+          padding: 10px;
+        }
       }
       &__privacypolicy {
         padding-top: 25px;
+        @include mq(sp) {
+          padding-top: 10px;
+        }
       }
     }
   }

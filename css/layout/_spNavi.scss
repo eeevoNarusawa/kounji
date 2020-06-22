@@ -31,16 +31,16 @@
     justify-content: center;
   }
   main.open {
-    transform: translateX(-250px);
+    transform: translateX(-100%);
   }
   .menu-trigger {
     display: inline-block;
     width: 36px;
-    height: 28px;
+    height: 20px;
     vertical-align: middle;
     cursor: pointer;
     position: fixed;
-    top: 22px;
+    top: 35px;
     right: 30px;
     z-index: 100;
   }
@@ -50,21 +50,21 @@
     position: absolute;
     left: 0;
     width: 100%;
-    height: 4px;
+    height: 2px;
     background-color: #555;
     transition: all .5s;
   }
   .menu-trigger.active span {
-    background-color: #555;
+    background-color: #fff;
   }
   .menu-trigger span:nth-of-type(1) {
     top: 0;
   }
   .menu-trigger.active span:nth-of-type(1) {
-    transform: translateY(12px) rotate(-45deg);
+    transform: translateY(6px) rotate(-45deg);
   }
   .menu-trigger span:nth-of-type(2) {
-    top: 12px;
+    top: 9px;
   }
   .menu-trigger.active span:nth-of-type(2) {
     opacity: 0;
@@ -76,24 +76,44 @@
     transform: translateY(-12px) rotate(45deg);
   }
   nav {
-    width: 250px;
+    width: 100%;
     height: 100%;
-    padding-top: 70px;
-    background-color: #eee;
+    padding-top: 30px;
+    background-image: url('../images/sp_nav_bg.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 10;
-    transform: translate(250px);
+    transform: translate(100%);
     transition: all .5s;
   }
   nav.open {
     transform: translateZ(0);
   }
+  .menu-logo {
+    width: 149px;
+    margin: 0 0 40px 5%;
+  }
+  nav ul {
+    width: $sp_cont;
+    margin: 0 auto;
+    border-bottom: 1px solid $light_purple;
+  }
   nav li {
-    color: #555;
-    text-align: center;
-    padding: 10px 0;
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 20px 0 20px 20px;
+    border-top: 1px solid $light_purple;
+  }
+  .menu-btn {
+    width: $sp_cont!important;
+    margin: 40px auto 0;
+    border: 1px solid #fff;
+    a {
+      color: #fff;
+    }
   }
 }
 @media all and (min-width: $mediaM-) {
