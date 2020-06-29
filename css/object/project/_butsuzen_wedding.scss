@@ -94,7 +94,7 @@
       position: absolute;
       top: 70px;
       left: 190px;
-      min-width: 1000px;
+      width: 100%;
       height: 460px;
       background: $gray;
       z-index: -1;
@@ -105,16 +105,16 @@
       }
     }
     &--img {
-      width: 595px;
+      width: 50%;
       @include mq(sp) {
         width: 100%;
       }
     }
     &--cont {
       width: 595px;
+      margin: 0 auto;
       @include mq(sp) {
         width: $sp_cont;
-        margin: 0 auto;
       }
     }
     &--subttl {
@@ -129,6 +129,10 @@
         margin: 65px 0 50px;
         line-height: 1.6;
       }
+      @include mq(ie) {
+        width: 60%;
+        height: 300px;
+      }
     }
     &--copy {
       width: fit-content;
@@ -137,6 +141,9 @@
       font-size: 1.6rem;
       @include mq(sp) {
         margin: 0;
+      }
+      @include mq(ie) {
+        width: 280px;
       }
     }
     &--btn {

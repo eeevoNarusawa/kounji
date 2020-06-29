@@ -1,10 +1,16 @@
 // main: ../default.scss
 .u-cat {
   &-item {
-    width: fit-content;
+    text-align: center;
     padding: 4px 10px;
+    color: #fff;
     a {
       color: #fff;
+    }
+  }
+  &-list {
+    @include mq(sp) {
+      padding: 4px 0;
     }
   }
   &-news {
@@ -18,5 +24,8 @@
   }
   &-nokotsudo {
     background: $orange;
+  }
+  &-all {
+    background: $brown;
   }
 }

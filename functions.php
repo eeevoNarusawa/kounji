@@ -96,3 +96,16 @@
   } //END my_meta_ogp
 
   add_action('wp_head','my_meta_ogp');//headにOGPを出力
+
+/*____ MW WP FORM ERROR MESSAGE ____*/
+add_filter( 'mwform_error_message_mw-wp-form-27', 'custom_mwform_error_message', 10, 3 );
+function custom_mwform_error_message( $error, $key, $rule ) {
+  if ( $key === 'tel' ) {
+    if ( $rule === 'noempty' ) {
+      return '未入力です。';
+    } elseif ( $rule === 'tel' ) {
+      return '半角数字のみで入力してください。';
+    }
+  }
+  return $error;
+}

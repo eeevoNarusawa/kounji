@@ -46,7 +46,7 @@
         </picture>
       </div>
     </div><? //.p-top-visual--slider__items ?>
-    <div class="p-top-visual--slider-scroll u-font-serif u-vertical-writing sp"><a href="#about">SCROLL</a></div>
+    <div class="p-top-visual--slider-scroll u-font-serif u-vertical-writing"><a href="#about">SCROLL</a></div>
   </div><? //.p-top-visual--slider ?>
 </section>
 
@@ -54,6 +54,7 @@
 
   <div id="about">
     <section class="p-top-about u-fade-up">
+      <div class="u-font-serif c-top-vertical-ttl u-fade-up sp">光運寺について</div>
       <div class="u-vertical-writing u-font-serif c-top-vertical-ttl u-fade-up pc"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/border.png">光運寺について</div>
       <div class="p-top-about__wrap">
         <h3 class="u-font-serif__white p-top-about--subttl u-fade-up">
@@ -85,6 +86,8 @@
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide03.jpg">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide04.jpg">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide05.jpg">
+          <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide06.jpg">
+          <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide07.jpg">
         </div>
       </div>
       <div class="p-top-eitai--cont">
@@ -101,29 +104,32 @@
       <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_info_visual.jpg" alt="仏事のご案内" class="u-fade-up">
     </picture>
     <div class="p-top-info--wrap">
-      <div class="u-vertical-writing u-font-serif c-top-vertical-ttl u-fade-up pc"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/border.png">仏事のご案内</div>
-      <div class="p-top-info--wrap__bg u-fade-up"></div>
-      <div class="p-top-info--subttl u-font-serif u-fade-up">いつまでも想いつづける</div>
-      <div class="p-top-info--copy u-fade-up">
-        仏事にはすべてに理由があります。<br>
-        共に大切なご家族をお浄土におくり、いつまでも想いを大切にしてまいりましょう。
-      </div>
-      <div class="p-top-info--conts u-fade-up">
-        <div class="p-top-info--banner">
-          <a href="/kounji/butsuji_info/">
-          <picture>
-            <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_sogi.png">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_info_sogi.png" alt="葬儀">
-          </picture>
-          </a>
+      <div class="p-top-info--conts">
+        <div class="p-top-info--conts__bg u-fade-up"></div>
+        <div class="u-font-serif c-top-vertical-ttl u-fade-up sp">仏事のご案内</div>
+        <div class="u-vertical-writing u-font-serif c-top-vertical-ttl u-fade-up pc"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/border.png">仏事のご案内</div>
+        <div class="p-top-info--subttl u-font-serif u-fade-up">いつまでも想いつづける</div>
+        <div class="p-top-info--copy u-fade-up">
+          仏事にはすべてに理由があります。<br>
+          共に大切なご家族をお浄土におくり、いつまでも想いを大切にしてまいりましょう。
         </div>
-        <div class="p-top-info--banner">
-          <a href="/kounji/butsuji_info#hoji/">
+        <div class="p-top-info--imgs u-fade-up">
+          <div class="p-top-info--banner">
+            <a href="/kounji/butsuji_info/">
             <picture>
-              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_hoji.png">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_info_hoji.png" alt="法事">
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_sogi.png">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_info_sogi.png" alt="葬儀">
             </picture>
-          </a>
+            </a>
+          </div>
+          <div class="p-top-info--banner">
+            <a href="/kounji/butsuji_info#hoji">
+              <picture>
+                <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_hoji.png">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_info_hoji.png" alt="法事">
+              </picture>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -191,7 +197,6 @@
       </div>
       <div class="p-top-blog--link u-fade-up"><a href="/kounji/blog/">一覧を見る<i class="fas fa-chevron-right p-top-blog--link__brackets"></i></a></div>
     </div>
-
   </section>
 
 <?php get_footer(); ?>

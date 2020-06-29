@@ -5,7 +5,7 @@
     <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_blog_detail_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/blog_detail_visual.jpg" alt="<?php the_title(); ?>">
   </picture>
-  <div class="c-page-ttl u-font-serif u-vertical-writing">光運寺ブログ</div>
+  <h1><div class="c-page-ttl u-font-serif u-vertical-writing">光運寺ブログ</div></h1>
 </section>
 
 <section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span><a href="/kounji/blog">光運寺ブログ</a><span class="c-page-breadcrumbs__arrow">＞</span><?php the_title(); ?></section>

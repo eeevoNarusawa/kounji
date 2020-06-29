@@ -23,6 +23,9 @@
     text-align: center;
     margin: 80px auto 0;
     width: 90%;
+    @include mq(ie) {
+      width: inherit;
+    }
     @include mq(sp) {
       text-align: inherit;
       margin: 50px 0;

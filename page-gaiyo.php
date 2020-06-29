@@ -5,7 +5,7 @@
     <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_visual.jpg" alt="光運寺について">
   </picture>
-  <div class="c-page-ttl u-font-serif u-vertical-writing">光運寺について</div>
+  <h1><div class="c-page-ttl u-font-serif u-vertical-writing">光運寺について</div></h1>
 </section>
 
 <section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>光運寺について</section>
@@ -47,25 +47,27 @@
     </section>
 
     <section class="p-gaiyo-precept">
-      <div class="p-gaiyo-precept--wrap">
-        <div class="p-gaiyo-precept--img u-fade-up">
-          <picture>
-            <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_precept01.png">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_precept01.png" alt="教え">
-          </picture>
+      <div class="p-gaiyo-precept--conts">
+        <div class="p-gaiyo-precept--wrap">
+          <div class="p-gaiyo-precept--img u-fade-up">
+            <picture>
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_precept01.png">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_precept01.png" alt="教え">
+            </picture>
+          </div>
+          <div class="p-gaiyo-precept--copy u-fade-up">阿弥陀仏の平等のお慈悲を信じ、「南無阿弥陀仏」と称えて、人格を高め、社会のためにつくし、明るい安らかな毎日を送り、お浄土に生まれることを願う信仰です。</div>
+          <div class="p-gaiyo-precept--bg sp u-fade-up"></div>
         </div>
-        <div class="p-gaiyo-precept--copy u-fade-up">阿弥陀仏の平等のお慈悲を信じ、「南無阿弥陀仏」と称えて、人格を高め、社会のためにつくし、明るい安らかな毎日を送り、お浄土に生まれることを願う信仰です。</div>
-        <div class="p-gaiyo-precept--bg sp u-fade-up"></div>
-      </div>
-      <div class="p-gaiyo-precept--wrap">
-        <div class="p-gaiyo-precept--img u-fade-up">
-          <picture>
-            <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_precept02.png">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_precept02.png" alt="お経">
-          </picture>
+        <div class="p-gaiyo-precept--wrap">
+          <div class="p-gaiyo-precept--img u-fade-up">
+            <picture>
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_precept02.png">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_precept02.png" alt="お経">
+            </picture>
+          </div>
+          <div class="p-gaiyo-precept--copy u-fade-up">お釈迦さまがお説きになった『無量寿経』『観無量寿経』『阿弥陀経』の三部経をよりどころとします。</div>
+          <div class="p-gaiyo-precept--bg sp u-fade-up"></div>
         </div>
-        <div class="p-gaiyo-precept--copy u-fade-up">お釈迦さまがお説きになった『無量寿経』『観無量寿経』『阿弥陀経』の三部経をよりどころとします。</div>
-        <div class="p-gaiyo-precept--bg sp u-fade-up"></div>
       </div>
       <div class="p-gaiyo-precept--bg pc"></div>
     </section>
@@ -77,8 +79,10 @@
       </picture>
       <div class="p-gaiyo-auspicious--wrap">
         <div class="p-gaiyo-auspicious--ttl u-font-serif u-vertical-writing u-fade-up">光運寺の縁起</div>
-        <div class="p-gaiyo-auspicious--text u-fade-up">正安3年2月（西暦1301年）、聖覚法印を開基として、上野国国府の明観上人が一宇を建立、三重山東源院尊乗寺と称しました。応仁の乱で兵火に遇い、のち源誉超順上人によって再興され、浄土宗総本山知恩院第二十七世徳誉光然上人の来賜を仰ぎ浄土宗となり光運寺となりました。境内に第九世乾誉上人夢告の延命地蔵尊があり、毎日100名以上の信者さんが参詣に訪れています。現在地には第十世戒誉上人の時（宝暦年間）に移転しました。</div>
-        <div class="p-gaiyo-auspicious--text u-fade-up">明治になって立地条件の良さから、1872年11月四日市学校（のち第一尋常小学校、現中部西小学校）が光運寺に創立され、また昭和19年（1944年）には健民修練所も設置されました。別格中本山として隆盛を誇りましたが、昭和20年の大空襲により、全ての伽藍が消失してしまいました。戦没者の菩提を弔うために、当時の檀家の尽力により、焼け野原に一番に光運寺仮本堂が建築されたそうです。<br>平成24年念願の新本堂が建築され現在に至っています。</div>
+        <div class="p-gaiyo-auspicious--copy">
+          <div class="p-gaiyo-auspicious--text u-fade-up">正安3年2月（西暦1301年）、聖覚法印を開基として、上野国国府の明観上人が一宇を建立、三重山東源院尊乗寺と称しました。応仁の乱で兵火に遇い、のち源誉超順上人によって再興され、浄土宗総本山知恩院第二十七世徳誉光然上人の来賜を仰ぎ浄土宗となり光運寺となりました。境内に第九世乾誉上人夢告の延命地蔵尊があり、毎日100名以上の信者さんが参詣に訪れています。現在地には第十世戒誉上人の時（宝暦年間）に移転しました。</div>
+          <div class="p-gaiyo-auspicious--text u-fade-up">明治になって立地条件の良さから、1872年11月四日市学校（のち第一尋常小学校、現中部西小学校）が光運寺に創立され、また昭和19年（1944年）には健民修練所も設置されました。別格中本山として隆盛を誇りましたが、昭和20年の大空襲により、全ての伽藍が消失してしまいました。戦没者の菩提を弔うために、当時の檀家の尽力により、焼け野原に一番に光運寺仮本堂が建築されたそうです。<br>平成24年念願の新本堂が建築され現在に至っています。</div>
+        </div>
         <div class="p-gaiyo-auspicious--bg sp"></div>
       </div>
     </section>

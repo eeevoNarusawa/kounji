@@ -1,6 +1,6 @@
 <section id="sidebar" class="pc">
-  <section class="nav">
-    <div class="nav--logo"><a href="/kounji/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.svg" alt="浄土宗　三重山　光運寺"></a></div>
+  <section class="nav u-fade-sidebar">
+    <div class="nav--logo"><a href="/kounji/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo_sidebar.jpg" alt="浄土宗　三重山　光運寺"></a></div>
     <ul class="nav--list">
       <a href="/kounji/gaiyo/"><li>光運寺について</li></a>
       <a href="/kounji/nenjyu/"><li>年中行事</li></a>
@@ -10,7 +10,7 @@
       <a href="/kounji/blog/"><li>ブログ</li></a>
     </ul>
     <div class="nav--icon"><a href="/kounji/contact/"><i class="far fa-envelope"></i></a></div>
-    <div class="nav--copyright">©️2020 kounji</div>
+    <div class="u-font-serif nav--copyright">©️2020 kounji</div>
   </section>
 </section>
 

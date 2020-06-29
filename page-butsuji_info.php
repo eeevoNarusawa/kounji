@@ -5,7 +5,7 @@
     <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_visual.jpg" alt="仏事（葬儀・法事）のご案内">
   </picture>
-  <div class="c-page-ttl u-font-serif u-vertical-writing p-butsuji-ttl">仏事（葬儀・法事）のご案内</div>
+  <h1><div class="c-page-ttl u-font-serif u-vertical-writing p-butsuji-ttl">仏事（葬儀・法事）のご案内</div></h1>
 </section>
 
 <section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>仏事（葬儀・法事）のご案内</section>
@@ -24,29 +24,31 @@
   <div class="c-page--min-width">
     <section class="p-butsuji-about">
       <div class="p-butsuji-about--bg u-fade-up pc"></div>
-      <div class="p-butsuji-about--cont">
-        <div class="p-butsuji-about--img u-fade-up">
-          <picture>
-            <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_about01.png">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_about01.png" alt="葬儀について">
-          </picture>
+      <div class="p-butsuji-about--wrap">
+        <div class="p-butsuji-about--cont">
+          <div class="p-butsuji-about--img u-fade-up">
+            <picture>
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_about01.png">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_about01.png" alt="葬儀について">
+            </picture>
+          </div>
+          <div class="p-butsuji-about--desc u-fade-up">臨終はどなたにも、突然やってまいります。私たちの目の前にある世界が全てではなく、仏の世界というものが存在します。大切なご家族が、阿弥陀さまの救いの力によって、間違いなくお浄土に旅立っていただくのが葬儀の意義です。</div>
+          <div class="p-butsuji-about--bg u-fade-up sp"></div>
         </div>
-        <div class="p-butsuji-about--desc u-fade-up">臨終はどなたにも、突然やってまいります。私たちの目の前にある世界が全てではなく、仏の世界というものが存在します。大切なご家族が、阿弥陀さまの救いの力によって、間違いなくお浄土に旅立っていただくのが葬儀の意義です。</div>
-        <div class="p-butsuji-about--bg u-fade-up sp"></div>
-      </div>
-      <div class="p-butsuji-about--cont">
-        <div class="p-butsuji-about--img u-fade-up">
-          <picture>
-            <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_about02.png">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_about02.png" alt="戒名について">
-          </picture>
+        <div class="p-butsuji-about--cont">
+          <div class="p-butsuji-about--img u-fade-up">
+            <picture>
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_about02.png">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_about02.png" alt="戒名について">
+            </picture>
+          </div>
+          <div class="p-butsuji-about--desc u-fade-up">
+            ＜戒名はなぜ必要か？＞<br>
+            仏のみ教えを守ることを誓われた方に授けられるのが戒名です。お浄土に旅立つにあたり、その前に仏弟子になり戒名を受ける必要があります。<br>
+            信仰が厚く、生前に受けられる方もいらっしゃいますが、臨終後は通夜式にてご家族立会いのもと授けられます。
+          </div>
+          <div class="p-butsuji-about--bg p-butsuji-about--bg__long u-fade-up sp"></div>
         </div>
-        <div class="p-butsuji-about--desc u-fade-up">
-          ＜戒名はなぜ必要か？＞<br>
-          仏のみ教えを守ることを誓われた方に授けられるのが戒名です。お浄土に旅立つにあたり、その前に仏弟子になり戒名を受ける必要があります。<br>
-          信仰が厚く、生前に受けられる方もいらっしゃいますが、臨終後は通夜式にてご家族立会いのもと授けられます。
-        </div>
-        <div class="p-butsuji-about--bg p-butsuji-about--bg__long u-fade-up sp"></div>
       </div>
     </section>
 

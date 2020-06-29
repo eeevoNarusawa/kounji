@@ -3,7 +3,7 @@
 <section class="c-page-breadcrumbs p-privacypolicy__sp"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>Privacy Policy</section>
 
 <section class="p-privacypolicy">
-  <div class="p-privacypolicy-ttl u-font-serif">個人情報の<br class="sp">取り扱いについて</div>
+  <h1><div class="p-privacypolicy-ttl u-font-serif">個人情報の<br class="sp">取り扱いについて</div></h1>
   <div class="p-privacypolicy-copy">浄土宗三重山 光運寺は、個人情報の保護に関する法律その他の関係法令・指針を遵守し、個人情報の適切な保護に努めます。</div>
   <div class="p-privacypolicy-wrap">
     <div class="p-privacypolicy-wrap--ttl u-font-serif">1.個人情報の取得と利用目的について</div>

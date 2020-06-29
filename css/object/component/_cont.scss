@@ -1,7 +1,7 @@
 // main: ../../default.scss
 .c-cont--wrap {
   margin-left: 250px;
-  overflow-x: hidden;
+  overflow-x: scroll;
   @include mq(sp) {
     margin-left: 0;
     overflow-x: inherit;

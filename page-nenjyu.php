@@ -5,7 +5,7 @@
     <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_nenjyu_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/nenjyu_visual.jpg" alt="年中行事">
   </picture>
-  <div class="c-page-ttl u-font-serif u-vertical-writing">年中行事</div>
+  <h1><div class="c-page-ttl u-font-serif u-vertical-writing">年中行事</div></h1>
 </section>
 
 <section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>年中行事</section>

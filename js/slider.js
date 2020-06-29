@@ -5,7 +5,7 @@ jQuery(function(){
     autoplay: true,
     arrows: true,
     pauseOnHover: false,
-    autoplaySpeed: 1800,
+    autoplaySpeed: 1000,
     speed: 2000,
     lazyLoad: true,
     pauseOnFocus: false,

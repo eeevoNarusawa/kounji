@@ -47,11 +47,18 @@
   }
   &-back {
     margin: 20px auto 0;
+    @include mq(ie) {
+      display: block;
+      margin: 20px 376px 0;
+    }
     input {
       border: 0;
       background: inherit;
       border-bottom: 1px solid #000;
       border-radius: 0;
+      @include mq(ie) {
+        background: none;
+      }
     }
   }
 } //.p-check

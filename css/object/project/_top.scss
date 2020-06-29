@@ -5,7 +5,8 @@
     z-index: 2;
     position: relative;
     padding-bottom: 100px;
-    min-width: 1070px;
+    width: 94%;
+    margin: 0 auto;
     @include mq(sp) {
       min-width: 100%;
       padding: 95px 0 0;
@@ -19,8 +20,6 @@
         position: relative;
       }
       &__items {
-        max-width: 1360px;
-        margin: 0 auto;
         @include mq(sp) {
           width: 95%;
           margin: 0 0 0 5%;
@@ -34,7 +33,7 @@
         top: 140px;
         left: 49%;
         color: #fff;
-        font-size: 3.2rem;
+        font-size: 2.3vw;
         font-weight: 500;
         letter-spacing: 5px;
         @include mq(sp) {
@@ -73,11 +72,15 @@
       }
       &-scroll {
         position: absolute;
-        left: 10%;
-        bottom: 0;
+        left: 3%;
+        bottom: 100px;
         border-left: 1px solid #fff;
         color: #fff;
         padding: 0 0 53px 4px;
+        @include mq(sp) {
+          left: 10%;
+          bottom: 0;
+        }
         a {
           color: #fff;
         }
@@ -105,9 +108,12 @@
     }
     &--subttl {
       font-size: 2.8rem;
-      line-height: 2.3;
+      line-height: 2.7;
+      letter-spacing: .2em;
       @include mq(sp) {
         font-size: 2.1rem;
+        line-height: 2.3;
+        letter-spacing: 3px;
       }
     }
     &--copy {
@@ -205,6 +211,10 @@
         font-size: 2.5rem;
         @include offVertical();
       }
+      @include mq(ie) {
+        width: 310px;
+        height: 310px;
+      }
     }
     &--copy {
       width: 354px;
@@ -223,47 +233,56 @@
       padding-bottom: 20px;
     }
     &--wrap {
-      position: relative;
       min-width: 1190px;
+      position: relative;
       @include mq(sp) {
         min-width: 100%;
       }
+    }
+    &--conts {
+      width: 1022px;
+      margin: 0 auto;
+      @include mq(sp) {
+        width: 100%;
+        padding-top: 80px;
+      }
       &__bg {
         position: absolute;
-        left: 20%;
+        left: 15%;
         top: 44px;
-        width: 80%;
+        width: 85%;
         height: 540px;
         background: $gray;
         z-index: -1;
+        @include mq(sp) {
+          height: 720px;
+        }
       }
     }
     &--subttl {
       font-size: 4rem;
-      padding: 135px 0 48px 46px;
+      padding: 135px 0 48px;
       font-weight: 500;
       @include mq(sp) {
         font-size: 2.5rem;
-        padding: 120px 0 40px;
+        padding: 20px 0 40px;
         margin: 0 auto;
         width: $sp_cont;
       }
     }
     &--copy {
-      margin: 0 0 84px 82px;
+      margin: 0 0 84px 36px;
       line-height: 2.1;
       @include mq(sp) {
         width: $sp_cont;
-        margin: 0 auto 84px;
+        margin: 0 auto 50px;
       }
     }
-    &--conts {
+    &--imgs {
       @include flex();
-      margin-left: 46px;
       width: 1044px;
       @include mq(sp) {
         @include flex(inherit, inherit);
-        margin-left: 0;
         width: 100%;
       }
     }
@@ -299,21 +318,23 @@
 
   &-blog {
     padding: 122px 0 140px;
+    min-width: 1190px;
     @include mq(sp) {
       padding: 70px 0 75px;
+      min-width: 100%;
     }
     &--wrap {
       @include flex();
-      width: 1190px;
+      width: 1118px;
+      margin: 0 auto;
       position: relative;
       @include mq(sp) {
         @include flex(inherit, inherit);
         width: $sp_cont;
-        margin: 0 auto;
       }
     }
     &--ttl {
-      margin: 0 196px 0 72px;
+      margin: 0 196px 0 0;
       @include mq(sp) {
         margin: 0;
         @include offVertical();
@@ -337,7 +358,7 @@
       }
     }
     &--conts {
-      min-width: 840px;
+      min-width: 839px;
       border-bottom: 1px solid #dfdfdf;
       margin-top: 70px;
       @include mq(sp) {
@@ -378,7 +399,7 @@
         }
       }
       &__ttl {
-        width: 520px;
+        width: 500px;
         display: table-cell;
         @include mq(sp) {
           width: 90%;
@@ -394,7 +415,7 @@
       &__brackets {
         text-align: right;
         color: $red;
-        margin-left: 10px;
+        padding-left: 20px;
         display: table-cell;
         vertical-align: middle;
       }
@@ -402,7 +423,7 @@
     &--link {
       position: absolute;
       bottom: 0;
-      left: 72px;
+      left: 0;
       font-size: 1.4rem;
       border-bottom: 2px solid $red;
       padding-bottom: 5px;

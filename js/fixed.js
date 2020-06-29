@@ -3,7 +3,7 @@ jQuery(function(){
       offset = nav.offset();
 
   jQuery(window).scroll(function () {
-    if(jQuery(window).scrollTop() > offset.top - 0) {
+    if(jQuery(window).scrollTop() > offset.top - 20) {
       nav.addClass('fixed');
     } else {
       nav.removeClass('fixed');

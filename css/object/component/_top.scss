@@ -10,5 +10,23 @@
       width: 1px;
       margin: 0 0 24px 13px;
     }
+    @include mq(sp) {
+      position: inherit;
+      right: 0;
+      letter-spacing: inherit;
+      font-size: 1.4rem;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      width: 150px;
+      &:before {
+      	content: "";
+      	flex-grow: 1;
+      	height: 1px;
+      	background: $sunken_red;
+      	display: block;
+        margin-right: 20px;
+      }
+    }
   }
 }

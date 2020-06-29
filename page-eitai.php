@@ -5,7 +5,7 @@
     <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_eitai_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_visual.jpg" alt="納骨堂・永代供養">
   </picture>
-  <div class="c-page-ttl u-font-serif u-vertical-writing">納骨堂・永代供養</div>
+  <h1><div class="c-page-ttl u-font-serif u-vertical-writing">納骨堂・永代供養</div></h1>
 </section>
 
 <section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>納骨堂・永代供養</section>
@@ -132,6 +132,7 @@
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide04.jpg">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide05.jpg">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide06.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide07.jpg">
       </div>
       <div class="p-eitai-slider__items pc">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide01.jpg">
@@ -140,6 +141,7 @@
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide04.jpg">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide05.jpg">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide06.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide07.jpg">
       </div>
     </section>
 

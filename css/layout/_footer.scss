@@ -1,15 +1,18 @@
 // main: ../default.scss
 footer {
-  min-width: 1190px;
   background: $gray;
   padding: 40px 0 20px;
-  @include flex();
-  @include mq(sp) {
-    min-width: 100%;
-  }
 }
 
 .l-footer {
+  &-wrap {
+    width: 1190px;
+    margin: 0 auto;
+    @include flex();
+    @include mq(sp) {
+      width: 100%;
+    }
+  }
   &-name {
     font-weight: bold;
     margin-left: 51px;
@@ -45,9 +48,9 @@ footer {
     margin: 0 240px 0 28px;
     @include mq(sp) {
       margin: 0 auto 0 5%;
-      .fas {
-        margin-left: 5px;
-      }
+    }
+    .fas {
+      margin-left: 5px;
     }
     a {
       color: #fff;

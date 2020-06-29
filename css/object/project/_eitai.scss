@@ -62,6 +62,10 @@
       color: #fff;
       margin: 0 auto 20px;
       padding: 2px 12px 4px 12px;
+      @include mq(ie) {
+        width: 60px;
+        text-align: center;
+      }
     }
     &--fee {
       font-size: 2.4rem;
@@ -96,11 +100,12 @@
   } //.p-eitai-price
   &-chara {
     padding: 80px 0 200px;
-    min-width: 1190px;
+    width: 1190px;
+    margin: 0 auto;
     @include mq(sp) {
       padding: 0 0 120px;
-      min-width: 100%;
-      margin-top: 10px;
+      width: 100%;
+      margin: 10px 0 0;
     }
     &--visual {
       @include flex();
@@ -190,7 +195,7 @@
     }
     &--wrap {
       width: 1100px;
-      margin: 0 45px;
+      margin: 0 auto;
       background: $gray;
       padding: 140px 0 100px;
       margin-top: -17px;
@@ -266,24 +271,23 @@
       position: absolute;
       top: 140px;
       left: 45px;
-      min-width: 1100px;
+      width: 100%;
       height: 350px;
       background: $gray;
       z-index: -1;
       @include mq(sp) {
         left: 10%;
-        min-width: 100%;
         height: 600px;
       }
     }
     &--img {
-      width: 600px;
+      width: 50%;
       @include mq(sp) {
         width: 100%;
       }
     }
     &--cont {
-      width: 545px;
+      width: 50%;
       @include mq(sp) {
         width: $sp_cont;
         margin: 0 auto;
@@ -295,6 +299,10 @@
       letter-spacing: 5px;
       line-height: 1.9;
       font-weight: 500;
+      @include mq(ie) {
+        width: 330px;
+        height: 280px;
+      }
       @include mq(sp) {
         font-size: 2.5rem;
         margin: 60px 0 30px;

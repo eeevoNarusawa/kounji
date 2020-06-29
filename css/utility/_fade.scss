@@ -2,7 +2,7 @@
 .u-fade-logo{
 　opacity:0;
   animation-name:logo;
-  animation-duration:360s;
+  animation-duration:300s;
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;
 }
@@ -21,7 +21,8 @@
   }
 }
 
-.u-fade-up {
+.u-fade-up,
+.u-fade-sidebar {
   opacity : 0;
   transform: translateY(20px);
   transition: 1s;

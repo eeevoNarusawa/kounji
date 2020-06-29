@@ -5,7 +5,7 @@
     <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuzen_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuzen_visual.jpg" alt="仏前結婚式">
   </picture>
-  <div class="c-page-ttl u-font-serif u-vertical-writing">仏前結婚式</div>
+  <h1><div class="c-page-ttl u-font-serif u-vertical-writing">仏前結婚式</div></h1>
 </section>
 
 <section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>仏前結婚式</section>

@@ -23,17 +23,12 @@
     }
   }
   &-about {
-    @include flex();
     position: relative;
-    @include mq(sp) {
-      @include flex(inherit,inherit);
-      position: inherit;
-    }
     &--bg {
       position: absolute;
       top: 160px;
       left: 0;
-      width: 1140px;
+      width: 96%;
       height: 500px;
       background: $gray;
       z-index: -1;
@@ -47,13 +42,30 @@
         }
       }
     }
+    &--wrap {
+      @include flex();
+      width: 980px;
+      margin: 0 auto;
+      @include mq(sp) {
+        @include flex(inherit,inherit);
+        position: inherit;
+        width: 100%;
+        margin: 0;
+      }
+    }
     &--cont {
       width: 470px;
       margin-left: 40px;
+      &:nth-child(1) {
+        margin: 0;
+      }
       @include mq(sp) {
         position: relative;
         width: $sp_cont;
         margin: 0 auto 70px;
+        &:nth-child(1) {
+          margin: 0 auto 70px;
+        }
       }
     }
     &--desc {
@@ -127,7 +139,7 @@
   &-reason {
     @include flex();
     position: relative;
-    padding-bottom: 210px;
+    padding-bottom: 110px;
     @include mq(sp) {
       @include flex(inherit, inherit);
     }
@@ -147,13 +159,13 @@
       }
     }
     &--img {
-      width: 570px;
+      width: 48%;
       @include mq(sp) {
         width: 100%;
       }
     }
     &--cont {
-      width: 344px;
+      width: 29.5%;
       margin: 0 auto;
       @include mq(sp) {
         width: $sp_cont;
@@ -165,6 +177,10 @@
       margin: 0 auto;
       letter-spacing: 4px;
       line-height: 2;
+      @include mq(ie) {
+        height: 300px;
+        width: 230px;
+      }
       @include mq(sp) {
         font-size: 2.5rem;
         margin: 67px 0 50px;
@@ -181,7 +197,7 @@
     }
   } //.p-butsuji-reason
   &-various {
-    padding-bottom: 150px;
+    padding: 100px 0 150px;
     @include mq(sp) {
       padding-bottom: 80px;
     }

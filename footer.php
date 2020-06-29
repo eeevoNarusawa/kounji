@@ -1,9 +1,13 @@
           <footer>
-            <div class="l-footer-name">浄土宗 三重山 光運寺</div>
-            <div class="l-footer-address">〒510-0082 三重県四日市市中部3-12</div>
-            <div class="l-footer-tel">TEL.059-352-3042</div>
-            <div class="l-footer-map"><a href="https://goo.gl/maps/qSqfzkxncvgYZ1xt8" target="_blank">Google Map<i class="fas fa-map-marker-alt"></i></a></div>
-            <div class="l-footer-pp"><a href="/kounji/privacypolicy/" target="_blank"><i class="far fa-clone l-footer-pp__icon"></i>Privacy Policy</a></div>
+            <div class="l-footer-wrap">
+              <div class="l-footer-name">
+                <?php if ( is_home() || is_front_page() ): ?><h1><?php endif; ?>浄土宗 三重山 光運寺<?php if ( is_home() || is_front_page() ): ?></h1><?php endif; ?>
+              </div>
+              <div class="l-footer-address">〒510-0082 三重県四日市市中部3-12</div>
+              <div class="l-footer-tel">TEL.059-352-3042</div>
+              <div class="l-footer-map"><a href="https://goo.gl/maps/qSqfzkxncvgYZ1xt8" target="_blank">Google Map<i class="fas fa-map-marker-alt"></i></a></div>
+              <div class="l-footer-pp"><a href="/kounji/privacypolicy/" target="_blank"><i class="far fa-clone l-footer-pp__icon"></i>Privacy Policy</a></div>
+            </div>
           </footer>
 
           <? // margin-leftを取ったコンテンツsection ?>
@@ -40,5 +44,23 @@
     <?php if(is_page('contact')){ ?>
       <script src="//yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
     <?php } ?>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169022167-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-169022167-1');
+
+      $(window).on("load", function(){
+                   setTimeout(function(){
+
+                 $('a[href^="tel:"]').on("click", function(){
+                   gtag('event', 'click', {'event_category': 'tel','event_label': window.location.href, 'value': '1'});
+                 });
+                }, 1000);
+              });
+    </script>
   </body>
 </html>

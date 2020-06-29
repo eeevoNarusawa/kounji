@@ -5,7 +5,7 @@
     <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_blog_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/blog_visual.jpg" alt="光運寺ブログ">
   </picture>
-  <div class="c-page-ttl u-font-serif u-vertical-writing">光運寺ブログ</div>
+  <h1><div class="c-page-ttl u-font-serif u-vertical-writing">光運寺ブログ</div></h1>
 </section>
 
 <section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>光運寺ブログ</section>
@@ -22,10 +22,19 @@
       	$categories = get_categories( $args );
       ?>
       <?php foreach( $categories as $category ) : ?>
-      	<div class="u-cat-<?php echo $category->slug; ?> u-cat-item p-blog-cat--item">
-      		<a href="<?php echo get_category_link( $category->term_id ); ?>"><?php echo $category->name; ?></a>
-      	</div>
+      <div class="p-blog-cat--item">
+        <a href="<?php echo get_category_link( $category->term_id ); ?>">
+          <div class="u-cat-<?php echo $category->slug; ?> u-cat-item u-cat-list">
+        		<?php echo $category->name; ?>
+        	</div>
+        </a>
+      </div>
       <?php endforeach; ?>
+      <div class="p-blog-cat--item">
+        <a href="/kounji/blog/">
+          <div class="u-cat-all u-cat-item p-blog-cat--item u-cat-list">すべて</div>
+        </a>
+      </div>
     </section>
 
     <section class="p-blog-wrap">
@@ -37,11 +46,13 @@
       ?>
       <div class="p-blog-cont">
         <div class="p-blog-cont--catch">
-          <?php if(has_post_thumbnail()): ?>
-            <?php the_post_thumbnail(array(420,280)); ?>
-          <?php else: ?>
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/blog_no_img.jpg">
-          <?php endif; ?>
+          <a href="<?php the_permalink(); ?>">
+            <?php if(has_post_thumbnail()): ?>
+              <?php the_post_thumbnail(array(420,280)); ?>
+            <?php else: ?>
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/blog_no_img.jpg">
+            <?php endif; ?>
+          </a>
         </div>
         <div class="p-blog-cont--date">
           <div class="p-blog-cont--cat">
