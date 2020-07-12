@@ -17,9 +17,7 @@
   &-catch {
     margin: 100px 0 140px;
     @include mq(sp) {
-      &__sp {
-        margin-top: 12px;
-      }
+      margin: 80px 0 140px;
     }
   }
   &-about {

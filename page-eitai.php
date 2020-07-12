@@ -2,7 +2,7 @@
 <?php get_sidebar(); ?>
 <section class="c-page-visual">
   <picture>
-    <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_eitai_visual.jpg">
+    <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_eitai_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_visual.jpg" alt="納骨堂・永代供養">
   </picture>
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing">納骨堂・永代供養</div></h1>
@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="p-eitai-price--cont u-fade-up">
-          <div class="p-eitai-price--label u-font-serif">壇信徒</div>
+          <div class="p-eitai-price--label u-font-serif">檀信徒</div>
           <div class="p-eitai-price--fee">おひとり<span class="p-eitai-price--fee__strong">35</span><span class="p-eitai-price--fee__yen">万円</span></div>
           <div class="p-eitai-price--fee">おふたり<span class="p-eitai-price--fee__strong">55</span><span class="p-eitai-price--fee__yen">万円</span></div>
           <div class="p-eitai-price--note">
@@ -47,13 +47,13 @@
       <div class="p-eitai-chara--visual">
         <div class="p-eitai-chara--img__left u-fade-up">
           <picture>
-            <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_eitai_chara01.jpg">
+            <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_eitai_chara01.jpg">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_chara01.jpg">
           </picture>
         </div>
         <div class="p-eitai-chara--img__right u-fade-up">
           <picture>
-            <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_eitai_chara02.jpg">
+            <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_eitai_chara02.jpg">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_chara02.jpg">
           </picture>
         </div>
@@ -113,7 +113,7 @@
         <div class="p-eitai-cemetery--bg u-fade-up"></div>
         <div class="p-eitai-cemetery--img u-fade-up">
           <picture>
-            <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_eitai_cemetery.jpg">
+            <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_eitai_cemetery.jpg">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_cemetery.jpg" alt="光運寺永代供養塔 光運寺墓地">
           </picture>
         </div>
@@ -126,7 +126,6 @@
 
     <section class="p-eitai-slider">
       <div class="p-eitai-slider--sp__items sp">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide01.jpg">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide02.jpg">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide03.jpg">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide04.jpg">
@@ -135,7 +134,6 @@
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide07.jpg">
       </div>
       <div class="p-eitai-slider__items pc">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide01.jpg">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide02.jpg">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide03.jpg">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide04.jpg">

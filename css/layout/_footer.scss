@@ -1,13 +1,19 @@
 // main: ../default.scss
 footer {
   background: $gray;
-  padding: 40px 0 20px;
+  position: relative;
+  min-width: 1190px;
+  @include mq(sp) {
+    min-width: 100%;
+  }
 }
 
 .l-footer {
   &-wrap {
     width: 1190px;
     margin: 0 auto;
+    padding: 40px 0 20px;
+    background: $gray;
     @include flex();
     @include mq(sp) {
       width: 100%;
@@ -45,7 +51,7 @@ footer {
     padding: 4px 12px;
     font-size: 1.2rem;
     border-radius: 20px;
-    margin: 0 240px 0 28px;
+    margin: 0 180px 0 28px;
     @include mq(sp) {
       margin: 0 auto 0 5%;
     }
@@ -61,8 +67,9 @@ footer {
   }
   &-pp {
     font-size: 1.2rem;
+    margin: 0 60px 0 0;
     @include mq(sp) {
-      margin: 0 5% 0 0;
+      margin: 0 15% 0 0;
     }
     &__icon {
       background: #000;
@@ -77,6 +84,15 @@ footer {
       &:hover {
         text-decoration: underline;
       }
+    }
+  }
+  &-totop {
+    width: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    @include mq(sp) {
+      width: 36px;
     }
   }
 }

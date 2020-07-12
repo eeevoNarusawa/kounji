@@ -2,7 +2,7 @@
 <?php get_sidebar(); ?>
 <section class="c-page-visual">
   <picture>
-    <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_nenjyu_visual.jpg">
+    <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_nenjyu_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/nenjyu_visual.jpg" alt="年中行事">
   </picture>
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing">年中行事</div></h1>

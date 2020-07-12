@@ -19,7 +19,7 @@
     position: relative;
     @include mq(sp) {
       background-image: url('../images/sp_butsuzen_about.jpg');
-      padding: 50px 0 460px;
+      padding: 30px 0 200px;
       position: inherit;
     }
     &--ttl {
@@ -61,7 +61,7 @@
       @include mq(sp) {
         font-size: 2.1rem;
         width: $sp_cont;
-        margin: 52px auto 95px;
+        margin: 180px auto 300px;
         line-height: 2.2;
       }
     }

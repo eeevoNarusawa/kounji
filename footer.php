@@ -14,7 +14,7 @@
         </section><!-- /.c-cont--wrap -->
 
 
-
+        <div class="l-footer-totop"><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/to_top.jpg"></a></div>
       </main>
       <div class="menu-trigger" href="">
         <span></span>
@@ -40,7 +40,7 @@
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/slick/slick.min.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slider.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/fixed.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/fade.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/fade.js?2020070301"></script>
     <?php if(is_page('contact')){ ?>
       <script src="//yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
     <?php } ?>

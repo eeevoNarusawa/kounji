@@ -5,7 +5,7 @@
     z-index: 2;
     position: relative;
     padding-bottom: 100px;
-    width: 94%;
+    width: 100%;
     margin: 0 auto;
     @include mq(sp) {
       min-width: 100%;
@@ -16,29 +16,42 @@
       margin: 37px auto 30px;
     }
     &--slider {
+      height: calc(100vh - 101px);
       @include mq(sp) {
         position: relative;
+        height: calc(100vh - 95px);
+        height: calc(var(--vh, 1vh) * 100 - 95px);
       }
       &__items {
+        img {
+          height: calc(100vh - 101px);
+          object-fit: cover;
+        }
         @include mq(sp) {
-          width: 95%;
-          margin: 0 0 0 5%;
+          width: 100%;
+          height: calc(100vh - 95px);
+          height: calc(var(--vh, 1vh) * 100 - 95px);
+          img {
+            height: calc(100vh - 95px);
+            height: calc(var(--vh, 1vh) * 100 - 95px);
+          }
         }
       }
       &__item {
         position: relative;
+        height: 100%;
       }
       &__copy {
         position: absolute;
         top: 140px;
         left: 49%;
         color: #fff;
-        font-size: 2.3vw;
+        font-size: 3vh;
         font-weight: 500;
         letter-spacing: 5px;
         @include mq(sp) {
           top: 80px;
-          font-size: 1.8rem;
+          left: 47%;
           letter-spacing: 6px;
         }
       }
@@ -77,6 +90,8 @@
         border-left: 1px solid #fff;
         color: #fff;
         padding: 0 0 53px 4px;
+        -webkit-animation: down 4s ease 0s infinite;
+        animation: down 4s ease 0s infinite;
         @include mq(sp) {
           left: 10%;
           bottom: 0;

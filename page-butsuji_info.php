@@ -2,7 +2,7 @@
 <?php get_sidebar(); ?>
 <section class="c-page-visual">
   <picture>
-    <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_visual.jpg">
+    <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_visual.jpg" alt="仏事（葬儀・法事）のご案内">
   </picture>
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing p-butsuji-ttl">仏事（葬儀・法事）のご案内</div></h1>
@@ -15,10 +15,9 @@
 
   <section class="p-butsuji-catch u-fade-up">
     <picture>
-      <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_catch01.jpg">
+      <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_catch.jpg">
       <img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_catch.jpg" alt="『いつまでも想いつづける』">
     </picture>
-    <div class="p-butsuji-catch__sp sp"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_catch02.jpg" alt="『いつまでも想いつづける』"></div>
   </section>
 
   <div class="c-page--min-width">
@@ -28,7 +27,7 @@
         <div class="p-butsuji-about--cont">
           <div class="p-butsuji-about--img u-fade-up">
             <picture>
-              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_about01.png">
+              <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_about01.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_about01.png" alt="葬儀について">
             </picture>
           </div>
@@ -38,7 +37,7 @@
         <div class="p-butsuji-about--cont">
           <div class="p-butsuji-about--img u-fade-up">
             <picture>
-              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_about02.png">
+              <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_about02.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_about02.png" alt="戒名について">
             </picture>
           </div>
@@ -61,8 +60,6 @@
             お寺までお知らせください。<br>
             <div class="p-butsuji-flow--text__border">｜</div>
             葬儀社への連絡してください。ご自宅、または安置所への搬送の手配をしてください。<br>
-            <div class="p-butsuji-flow--text__border">｜</div>
-            安置所への搬送の手配をしてください。<br>
             <div class="p-butsuji-flow--text__border">｜</div>
             死後の処置をしてもらってください。<br>
             <div class="p-butsuji-flow--text__border">｜</div>
@@ -113,13 +110,13 @@
       <div class="p-butsuji-reason--bg u-fade-up"></div>
       <div class="p-butsuji-reason--img u-fade-up">
         <picture>
-          <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_reason.jpg">
+          <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuji_reason.jpg">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_reason.jpg" alt="仏事にはすべてに理由があります">
         </picture>
       </div>
       <div class="p-butsuji-reason--cont">
         <div class="u-vertical-writing u-font-serif p-butsuji-reason--subttl u-fade-up">仏事にはすべてに<br>理由があります</div>
-        <div class="p-butsuji-reason--copy u-fade-up">共に大切なご家族をお浄土におくり、いつまでも想いを大切にしてまいりましょう。</div>
+        <div class="p-butsuji-reason--copy u-fade-up">共に大切なご家族をお浄土に送り、いつまでも想いを大切にしてまいりましょう。</div>
       </div>
     </section>
 
@@ -141,7 +138,7 @@
           </tr>
           <tr class="u-fade-up">
             <th>年忌法要</th>
-            <td>仏教では３・７という数字を大事にしていますので、三回忌（２年目）、７回忌（６年目）、…三と七のつく年に法要を行い、供養します。いつまででも故人を大切に想い法事を勤めることは、尊く有難いことです。</td>
+            <td>仏教では３・７という数字を大事にしていますので、三回忌（２年目）、七回忌（６年目）、…三と七のつく年に法要を行い、供養します。いつまででも故人を大切に想い法事を勤めることは、尊く有難いことです。</td>
           </tr>
           <tr class="u-fade-up">
             <th>生月命日</th>
@@ -149,7 +146,7 @@
           </tr>
           <tr class="u-fade-up">
             <th>開眼法要</th>
-            <td>ご仏壇を新調するなど仏様をお迎えし、魂を入れる儀式です。ご位牌やお墓を建立した時にも開眼法要をお勤めします。</td>
+            <td>ご仏壇やご位牌を新調するなど仏様をお迎えし、魂を入れる儀式です。お墓を建立した時にも開眼法要をお勤めします。</td>
           </tr>
           <tr class="u-fade-up">
             <th>遷仏・浄焚法要</th>

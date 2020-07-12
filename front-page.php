@@ -6,42 +6,42 @@
       <div></div>
       <div>
         <picture>
-          <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_visual01.jpg">
+          <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_visual01.jpg">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_visual01.jpg">
         </picture>
       </div>
       <div class="p-top-visual--slider__item">
         <div class="p-top-visual--slider__copy u-font-serif u-vertical-writing">仏さまに出会える幸せ</div>
         <picture>
-          <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_visual01.jpg">
+          <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_visual01.jpg">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_visual01.jpg">
         </picture>
       </div>
       <div class="p-top-visual--slider__item">
         <div class="p-top-visual--slider__copy u-font-serif u-vertical-writing">仏さまに出会える幸せ</div>
         <picture>
-          <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_visual02.jpg">
+          <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_visual02.jpg">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_visual02.jpg">
         </picture>
       </div>
       <div class="p-top-visual--slider__item">
         <div class="p-top-visual--slider__copy u-font-serif u-vertical-writing">仏さまに出会える幸せ</div>
         <picture>
-          <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_visual03.jpg">
+          <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_visual03.jpg">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_visual03.jpg">
         </picture>
       </div>
       <div class="p-top-visual--slider__item">
         <div class="p-top-visual--slider__copy u-font-serif u-vertical-writing">仏さまに出会える幸せ</div>
         <picture>
-          <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_visual04.jpg">
+          <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_visual04.jpg">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_visual04.jpg">
         </picture>
       </div>
       <div class="p-top-visual--slider__item">
         <div class="p-top-visual--slider__copy u-font-serif u-vertical-writing">仏さまに出会える幸せ</div>
         <picture>
-          <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_visual05.jpg">
+          <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_visual05.jpg">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_visual05.jpg">
         </picture>
       </div>
@@ -100,7 +100,7 @@
 
   <section class="p-top-info">
     <picture>
-      <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_visual.jpg">
+      <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_visual.jpg">
       <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_info_visual.jpg" alt="仏事のご案内" class="u-fade-up">
     </picture>
     <div class="p-top-info--wrap">
@@ -117,7 +117,7 @@
           <div class="p-top-info--banner">
             <a href="/kounji/butsuji_info/">
             <picture>
-              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_sogi.png">
+              <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_sogi.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_info_sogi.png" alt="葬儀">
             </picture>
             </a>
@@ -125,7 +125,7 @@
           <div class="p-top-info--banner">
             <a href="/kounji/butsuji_info#hoji">
               <picture>
-                <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_hoji.png">
+                <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_hoji.png">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_info_hoji.png" alt="法事">
               </picture>
             </a>
@@ -139,7 +139,7 @@
     <div class="p-top-banner__left u-fade-up">
       <a href="/kounji/gaiyo/">
         <picture>
-          <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_banner_gaiyo.jpg">
+          <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_banner_gaiyo.jpg">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_banner_gaiyo.jpg" alt="寺院概要">
         </picture>
       </a>
@@ -148,7 +148,7 @@
       <div class="u-fade-up">
         <a href="/kounji/nenjyu/">
           <picture>
-            <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_banner_nenjyu.jpg">
+            <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_banner_nenjyu.jpg">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_banner_nenjyu.jpg" alt="年中行事">
           </picture>
         </a>
@@ -156,7 +156,7 @@
       <div class="u-fade-up">
         <a href="/kounji/butsuzen_wedding/">
           <picture>
-            <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_banner_wedding.jpg">
+            <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_banner_wedding.jpg">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_banner_wedding.jpg" alt="仏前結婚式">
           </picture>
         </a>

@@ -10,6 +10,11 @@ body{
   font-size: 1.6rem;
   font-weight: 400;
 }
+@include mq(sp) {
+  body {
+    height: 100%;
+  }
+}
 .clearfix {
   min-height: 1px;
   &:after {

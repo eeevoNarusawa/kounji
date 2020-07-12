@@ -2,7 +2,7 @@
 <?php get_sidebar(); ?>
 <section class="c-page-visual">
   <picture>
-    <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_visual.jpg">
+    <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_visual.jpg" alt="光運寺について">
   </picture>
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing">光運寺について</div></h1>
@@ -51,7 +51,7 @@
         <div class="p-gaiyo-precept--wrap">
           <div class="p-gaiyo-precept--img u-fade-up">
             <picture>
-              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_precept01.png">
+              <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_precept01.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_precept01.png" alt="教え">
             </picture>
           </div>
@@ -61,11 +61,11 @@
         <div class="p-gaiyo-precept--wrap">
           <div class="p-gaiyo-precept--img u-fade-up">
             <picture>
-              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_precept02.png">
+              <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_precept02.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_precept02.png" alt="お経">
             </picture>
           </div>
-          <div class="p-gaiyo-precept--copy u-fade-up">お釈迦さまがお説きになった『無量寿経』『観無量寿経』『阿弥陀経』の三部経をよりどころとします。</div>
+          <div class="p-gaiyo-precept--copy u-fade-up">お釈迦さまがお説きになった『無量寿経』『観無量寿経』『阿弥陀経』の浄土三部経をよりどころとします。</div>
           <div class="p-gaiyo-precept--bg sp u-fade-up"></div>
         </div>
       </div>
@@ -74,7 +74,7 @@
 
     <section class="p-gaiyo-auspicious">
       <picture>
-        <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_auspicious.jpg">
+        <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_auspicious.jpg">
         <div class="p-gaiyo-auspicious--img u-fade-up"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_auspicious.jpg" alt="光運寺の縁起"></div>
       </picture>
       <div class="p-gaiyo-auspicious--wrap">
@@ -90,7 +90,7 @@
 
   <section class="p-gaiyo-filter u-fade-up">
     <picture>
-      <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_filter.jpg">
+      <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_gaiyo_filter.jpg">
       <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_filter.jpg">
     </picture>
   </section>
@@ -124,31 +124,27 @@
           <th>2012年</th><td>新本堂再建</td>
         </tr>
         <tr class="u-fade-up">
-          <th>2016年</th><td>五重相伝奉修</td>
+          <th>2016年</th><td>五重相伝会奉修</td>
         </tr>
       </table>
     </section>
 
     <section class="p-gaiyo-slider">
       <div class="p-gaiyo-slider--sp__items sp">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide01.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide02.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide03.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide04.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide05.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide06.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide07.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide08.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide02.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide03.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide04.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide05.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide06.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide07.jpg">
       </div>
       <div class="p-gaiyo-slider__items pc">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide01.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide02.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide03.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide04.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide05.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide06.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide07.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/gaiyo_slide08.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide02.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide03.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide04.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide05.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide06.jpg">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_slide07.jpg">
       </div>
     </section>
 

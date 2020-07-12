@@ -2,7 +2,7 @@
 <?php get_sidebar(); ?>
 <section class="c-page-visual">
   <picture>
-    <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_check_visual.jpg">
+    <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_check_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/check_visual.jpg" alt="お問い合わせ">
   </picture>
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing">お問い合わせ</div></h1>

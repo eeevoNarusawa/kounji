@@ -2,7 +2,7 @@
 <?php get_sidebar(); ?>
 <section class="c-page-visual">
   <picture>
-    <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_blog_detail_visual.jpg">
+    <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_blog_detail_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/blog_detail_visual.jpg" alt="<?php the_title(); ?>">
   </picture>
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing">光運寺ブログ</div></h1>

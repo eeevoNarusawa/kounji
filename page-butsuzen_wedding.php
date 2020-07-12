@@ -2,7 +2,7 @@
 <?php get_sidebar(); ?>
 <section class="c-page-visual">
   <picture>
-    <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuzen_visual.jpg">
+    <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuzen_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuzen_visual.jpg" alt="仏前結婚式">
   </picture>
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing">仏前結婚式</div></h1>
@@ -33,7 +33,7 @@
         <div class="p-butsuzen-vow--bg u-fade-up"></div>
         <div class="p-butsuzen-vow--img u-fade-up">
           <picture>
-            <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuzen_vow.jpg">
+            <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_butsuzen_vow.jpg">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuzen_vow.jpg">
           </picture>
         </div>

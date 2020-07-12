@@ -3,10 +3,10 @@
 $iconFont: 'font Awesome 5 Free';
 $serif: 'Noto Serif JP', Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
 // @media
-$media-S: 767px;
-$mediaM-: 768px;
-$media-M: 991px;
-$mediaL-: 992px;
+$media-S: 959px;
+$mediaM-: 960px;
+// $media-M: 991px;
+// $mediaL-: 992px;
 
 // color
 $border_gray: #ddd;
@@ -21,3 +21,14 @@ $skyblue: #34abd3;
 $brown: #622423;
 // width
 $sp_cont: 90%;
+
+@keyframes down {
+  0% { transform:translateY(0) }
+  5% { transform:translateY(0) }
+  10% { transform:translateY(0) }
+  20% { transform:translateY(8px) }
+  22% { transform:translateY(0) }
+  30% { transform:translateY(8px) }
+  32% { transform:translateY(0) }
+  100% { transform:translateY(0) }
+}
