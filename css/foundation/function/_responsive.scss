@@ -9,3 +9,9 @@ $breakpoints: (
     @content;
   }
 }
+
+@mixin firefox {
+  @-moz-document url-prefix() {
+    @content;
+  }
+}

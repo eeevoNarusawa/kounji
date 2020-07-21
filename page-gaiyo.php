@@ -8,7 +8,7 @@
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing">光運寺について</div></h1>
 </section>
 
-<section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>光運寺について</section>
+<section class="c-page-breadcrumbs"><a href="/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>光運寺について</section>
 
 <div class="c-page-wrap">
   <div class="c-page--min-width">

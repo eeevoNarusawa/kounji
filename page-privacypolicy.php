@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <?php get_sidebar(); ?>
-<section class="c-page-breadcrumbs p-privacypolicy__sp"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>Privacy Policy</section>
+<section class="c-page-breadcrumbs p-privacypolicy__sp"><a href="/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>Privacy Policy</section>
 
 <section class="p-privacypolicy">
   <h1><div class="p-privacypolicy-ttl u-font-serif">個人情報の<br class="sp">取り扱いについて</div></h1>

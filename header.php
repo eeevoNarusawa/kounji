@@ -67,5 +67,5 @@
     <div class="wrapper">
       <main class="clearfix">
         <section class="l-header sp">
-          <div class="l-header-logo"><a href="/kounji/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.jpg"></a></div>
+          <div class="l-header-logo"><a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.jpg"></a></div>
         </section>

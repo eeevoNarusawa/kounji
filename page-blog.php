@@ -8,7 +8,7 @@
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing">光運寺ブログ</div></h1>
 </section>
 
-<section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>光運寺ブログ</section>
+<section class="c-page-breadcrumbs"><a href="/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>光運寺ブログ</section>
 
 <div class="c-page-wrap">
   <div class="c-page--min-width">
@@ -31,7 +31,7 @@
       </div>
       <?php endforeach; ?>
       <div class="p-blog-cat--item">
-        <a href="/kounji/blog/">
+        <a href="/blog/">
           <div class="u-cat-all u-cat-item p-blog-cat--item u-cat-list">すべて</div>
         </a>
       </div>

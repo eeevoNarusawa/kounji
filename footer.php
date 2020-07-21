@@ -6,7 +6,7 @@
               <div class="l-footer-address">〒510-0082 三重県四日市市中部3-12</div>
               <div class="l-footer-tel">TEL.059-352-3042</div>
               <div class="l-footer-map"><a href="https://goo.gl/maps/qSqfzkxncvgYZ1xt8" target="_blank">Google Map<i class="fas fa-map-marker-alt"></i></a></div>
-              <div class="l-footer-pp"><a href="/kounji/privacypolicy/" target="_blank"><i class="far fa-clone l-footer-pp__icon"></i>Privacy Policy</a></div>
+              <div class="l-footer-pp"><a href="/privacypolicy/" target="_blank"><i class="far fa-clone l-footer-pp__icon"></i>Privacy Policy</a></div>
             </div>
           </footer>
 
@@ -22,16 +22,16 @@
         <span></span>
       </div>
       <nav>
-        <div class="menu-logo"><a href="/kounji/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png"></a></div>
+        <div class="menu-logo"><a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png"></a></div>
         <ul>
-          <a href="/kounji/gaiyo/"><li class="u-font-serif">光運寺について</li></a>
-          <a href="/kounji/nenjyu/"><li class="u-font-serif">年中行事</li></a>
-          <a href="/kounji/butsuji_info/"><li class="u-font-serif">仏事のご案内</li></a>
-          <a href="/kounji/eitai/"><li class="u-font-serif">納骨堂・永代供養</li></a>
-          <a href="/kounji/butsuzen_wedding/"><li class="u-font-serif">仏前結婚式</li></a>
-          <a href="/kounji/blog/"><li class="u-font-serif">ブログ</li></a>
+          <a href="/gaiyo/"><li class="u-font-serif">光運寺について</li></a>
+          <a href="/nenjyu/"><li class="u-font-serif">年中行事</li></a>
+          <a href="/butsuji_info/"><li class="u-font-serif">仏事のご案内</li></a>
+          <a href="/eitai/"><li class="u-font-serif">納骨堂・永代供養</li></a>
+          <a href="/butsuzen_wedding/"><li class="u-font-serif">仏前結婚式</li></a>
+          <a href="/blog/"><li class="u-font-serif">ブログ</li></a>
         </ul>
-        <div class="c-btn menu-btn"><a href="/kounji/contact/"><div class="c-btn__text">お問い合わせはこちら</div></a></div>
+        <div class="c-btn menu-btn"><a href="/contact/"><div class="c-btn__text">お問い合わせはこちら</div></a></div>
       </nav>
       <div class="overlay"></div>
     </div><!-- /.wrapper -->
@@ -41,6 +41,9 @@
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slider.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/fixed.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/fade.js?2020070301"></script>
+    <?php if ( is_home() || is_front_page() ) : ?>
+      <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/fitie.js"></script>
+    <?php endif; ?>
     <?php if(is_page('contact')){ ?>
       <script src="//yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
     <?php } ?>

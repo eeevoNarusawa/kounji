@@ -8,7 +8,7 @@
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing p-butsuji-ttl">仏事（葬儀・法事）のご案内</div></h1>
 </section>
 
-<section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>仏事（葬儀・法事）のご案内</section>
+<section class="c-page-breadcrumbs"><a href="/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>仏事（葬儀・法事）のご案内</section>
 
 <div class="c-page-wrap">
   <section class="p-butsuji-copy c-page--min-width u-font-serif u-fade-up">『いつまでも想いつづける』</section>
@@ -58,50 +58,50 @@
           <div class="p-butsuji-flow--img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_flow01.jpg" alt="臨終"></div>
           <div class="p-butsuji-flow--text">
             お寺までお知らせください。<br>
-            <div class="p-butsuji-flow--text__border">｜</div>
-            葬儀社への連絡してください。ご自宅、または安置所への搬送の手配をしてください。<br>
-            <div class="p-butsuji-flow--text__border">｜</div>
+            <div class="p-butsuji-flow--text__border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow_min.png"></div>
+            葬儀社へ連絡してください。<br class="sp">ご自宅、または安置所への搬送の手配をしてください。<br>
+            <div class="p-butsuji-flow--text__border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow_min.png"></div>
             死後の処置をしてもらってください。<br>
-            <div class="p-butsuji-flow--text__border">｜</div>
-            医師に「死亡診断書」を書いてもらってください。<br>
-            <div class="p-butsuji-flow--text__border">｜</div>
-            葬儀などの打ち合わせをしますので、お寺へお立ち寄りください。<br>
-            <div class="p-butsuji-flow--text__border">｜</div>
-            葬儀社と打ち合わせを行い、訃報を流します。
+            <div class="p-butsuji-flow--text__border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow_min.png"></div>
+            医師に「死亡診断書」を<br class="sp">書いてもらってください。<br>
+            <div class="p-butsuji-flow--text__border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow_min.png"></div>
+            葬儀などの打ち合わせをしますので、<br class="sp">お寺へお立ち寄りください。<br>
+            <div class="p-butsuji-flow--text__border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow_min.png"></div>
+            葬儀社と打ち合わせを行い、<br class="sp">訃報を流します。
           </div>
         </div>
-        <div class="p-butsuji-flow--border"></div>
+        <div class="p-butsuji-flow--border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow.png"></div>
         <div class="p-butsuji-flow--cont u-fade-up">
           <div class="p-butsuji-flow--img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_flow02.jpg" alt="枕経"></div>
           <div class="p-butsuji-flow--text">
-            枕経をおつとめし、ご家族と一緒に阿弥陀様のお迎えを願います。<br>
-            <div class="p-butsuji-flow--text__border">｜</div>
-            お身体を清めていただき、装束を整え納棺します。
+            枕経をおつとめし、<br class="sp">ご家族と一緒に阿弥陀様の<br class="sp">お迎えを願います。<br>
+            <div class="p-butsuji-flow--text__border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow_min.png"></div>
+            お身体を清めていただき、<br class="sp">装束を整え納棺します。
           </div>
         </div>
-        <div class="p-butsuji-flow--border"></div>
+        <div class="p-butsuji-flow--border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow.png"></div>
         <div class="p-butsuji-flow--cont u-fade-up">
           <div class="p-butsuji-flow--img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_flow03.jpg" alt="通夜"></div>
-          <div class="p-butsuji-flow--text">ご家族に見守られる中、仏弟子になった証に戒名が授けられます。</div>
+          <div class="p-butsuji-flow--text">ご家族に見守られる中、<br class="sp">仏弟子になった証に戒名が授けられます。</div>
         </div>
-        <div class="p-butsuji-flow--border"></div>
+        <div class="p-butsuji-flow--border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow.png"></div>
         <div class="p-butsuji-flow--cont u-fade-up">
           <div class="p-butsuji-flow--img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_flow04.jpg" alt="葬儀・告別式"></div>
           <div class="p-butsuji-flow--text">
-            阿弥陀様にお迎えいただき、故人を間違いなくお浄土へと送ります。<br>
-            <div class="p-butsuji-flow--text__border">｜</div>
+            阿弥陀様にお迎えいただき、<br class="sp">故人を間違いなくお浄土へと送ります。<br>
+            <div class="p-butsuji-flow--text__border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow_min.png"></div>
             葬儀式後は、斎場に移動し火葬を行い、収骨します。
           </div>
         </div>
-        <div class="p-butsuji-flow--border"></div>
+        <div class="p-butsuji-flow--border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow.png"></div>
         <div class="p-butsuji-flow--cont u-fade-up">
           <div class="p-butsuji-flow--img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_flow05.jpg" alt="初七日"></div>
-          <div class="p-butsuji-flow--text">最近は遠方の親族に配慮し、葬儀当日に初七日をつとめることもあります。</div>
+          <div class="p-butsuji-flow--text">最近は遠方の親族に配慮し、<br class="sp">葬儀当日に初七日を<br class="sp">つとめることもあります。</div>
         </div>
-        <div class="p-butsuji-flow--border"></div>
+        <div class="p-butsuji-flow--border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow.png"></div>
         <div class="p-butsuji-flow--cont u-fade-up">
           <div class="p-butsuji-flow--img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/butsuji_flow06.jpg" alt="寺参り"></div>
-          <div class="p-butsuji-flow--text">葬儀を無事厳修したことを、本尊さまへ報告し、<br>四十九日・納骨など、今後の打ち合わせを行います。</div>
+          <div class="p-butsuji-flow--text">葬儀を無事厳修したことを、<br class="sp">本尊さまへ報告し、<br>四十九日・納骨など、<br class="sp">今後の打ち合わせを行います。</div>
         </div>
       </div>
     </section>
@@ -138,7 +138,7 @@
           </tr>
           <tr class="u-fade-up">
             <th>年忌法要</th>
-            <td>仏教では３・７という数字を大事にしていますので、三回忌（２年目）、七回忌（６年目）、…三と七のつく年に法要を行い、供養します。いつまででも故人を大切に想い法事を勤めることは、尊く有難いことです。</td>
+            <td>仏教では３・７という数字を大事にしていますので、三回忌（２年目）、七回忌（６年目）⋯三と七のつく年に法要を行い、供養します。いつまででも故人を大切に想い法事を勤めることは、尊く有難いことです。</td>
           </tr>
           <tr class="u-fade-up">
             <th>生月命日</th>
@@ -155,7 +155,7 @@
         </table>
         <div class="p-butsuji-various--note__ttl u-fade-up">※各種法事のお布施(ご志納・冥加料)について</div>
         <div class="p-butsuji-various--note__text u-fade-up">光運寺では各法事に応じまして、ご志納を三種類ほど提示させていただき、その中で施主様に決めていただいております。ご遠慮なくお問合せ下さい。</div>
-        <div class="c-btn p-butsuji-various--btn u-fade-up"><a href="/kounji/contact/"><div class="c-btn__text">仏事に関するご相談はこちら</div></a></div>
+        <div class="c-btn p-butsuji-various--btn u-fade-up"><a href="/contact/"><div class="c-btn__text">仏事に関するご相談はこちら</div></a></div>
       </div>
     </section>
   </div><? //.c-page--min-width ?>

@@ -8,7 +8,7 @@
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing">納骨堂・永代供養</div></h1>
 </section>
 
-<section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>納骨堂・永代供養</section>
+<section class="c-page-breadcrumbs"><a href="/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>納骨堂・永代供養</section>
 
 <div class="c-page-wrap">
   <div class="c-page--min-width">
@@ -82,29 +82,29 @@
       <div class="p-eitai-flow--wrap">
         <div class="p-eitai-flow--cont u-fade-up">
           <div class="p-eitai-flow--subttl"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_flow_ttl01.jpg" alt="1.ご相談の予約"></div>
-          <div class="p-eitai-flow--text">先ずお寺にお電話いただき、ご相談の日程を決めます。</div>
+          <div class="p-eitai-flow--text">先ずお寺にお電話いただき、<br class="sp">ご相談の日程を決めます。</div>
         </div>
-        <div class="p-eitai-flow--border"></div>
+        <div class="p-eitai-flow--border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow.png"></div>
         <div class="p-eitai-flow--cont u-fade-up">
           <div class="p-eitai-flow--subttl"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_flow_ttl02.jpg" alt="2.ご相談・ご案内"></div>
-          <div class="p-eitai-flow--text">各々、各家に合ったご提案、ご案内をさせていただきます。</div>
+          <div class="p-eitai-flow--text">各々、各家に合ったご提案、<br class="sp">ご案内をさせていただきます。</div>
         </div>
-        <div class="p-eitai-flow--border"></div>
+        <div class="p-eitai-flow--border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow.png"></div>
         <div class="p-eitai-flow--cont u-fade-up">
           <div class="p-eitai-flow--subttl"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_flow_ttl03.jpg" alt="3.ご検討"></div>
-          <div class="p-eitai-flow--text">ご家族ともよくご相談いただき、ご検討ください。</div>
+          <div class="p-eitai-flow--text">ご家族ともよくご相談いただき、<br class="sp">ご検討ください。</div>
         </div>
-        <div class="p-eitai-flow--border"></div>
+        <div class="p-eitai-flow--border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow.png"></div>
         <div class="p-eitai-flow--cont u-fade-up">
           <div class="p-eitai-flow--subttl"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_flow_ttl04.jpg" alt="4.お申込み"></div>
-          <div class="p-eitai-flow--text">申込書にご記入いただき、ご志納を添えてお申込みください。</div>
+          <div class="p-eitai-flow--text">申込書にご記入いただき、<br class="sp">ご志納を添えてお申込みください。</div>
         </div>
-        <div class="p-eitai-flow--border"></div>
+        <div class="p-eitai-flow--border"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/arrow.png"></div>
         <div class="p-eitai-flow--cont u-fade-up">
           <div class="p-eitai-flow--subttl"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/eitai_flow_ttl05.jpg" alt="5.納骨法要"></div>
-          <div class="p-eitai-flow--text">納骨堂前にて共に法要をおつとめいたします。</div>
+          <div class="p-eitai-flow--text">納骨堂前にて共に法要を<br class="sp">おつとめいたします。</div>
         </div>
-        <div class="c-btn p-eitai-flow--btn u-fade-up"><a href="/kounji/contact/"><div class="c-btn__text">お問い合わせ</div></a></div>
+        <div class="c-btn p-eitai-flow--btn u-fade-up"><a href="/contact/"><div class="c-btn__text">お問い合わせ</div></a></div>
       </div>
     </section>
 

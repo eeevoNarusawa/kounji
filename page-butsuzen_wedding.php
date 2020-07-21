@@ -8,7 +8,7 @@
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing">仏前結婚式</div></h1>
 </section>
 
-<section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>仏前結婚式</section>
+<section class="c-page-breadcrumbs"><a href="/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>仏前結婚式</section>
 
 <div class="c-page-wrap">
   <div class="c-page--min-width">
@@ -46,7 +46,7 @@
           <div class="p-butsuzen-vow--copy u-fade-up">仏さまもまた<br>お二人を見守ってくださいます</div>
         </div>
       </div>
-      <div class="c-btn p-butsuzen-vow--btn u-fade-up"><a href="/kounji/contact/"><div class="c-btn__text">仏前結婚式についてのお問い合わせ</div></a></div>
+      <div class="c-btn p-butsuzen-vow--btn u-fade-up"><a href="/contact/"><div class="c-btn__text">仏前結婚式についてのお問い合わせ</div></a></div>
     </section>
   </div>
 </div>

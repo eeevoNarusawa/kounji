@@ -133,6 +133,9 @@
         width: 60%;
         height: 300px;
       }
+      @include firefox() {
+        width: 120px;
+      }
     }
     &--copy {
       width: fit-content;
@@ -144,6 +147,9 @@
       }
       @include mq(ie) {
         width: 280px;
+      }
+      @include firefox() {
+        width: 230px;
       }
     }
     &--btn {

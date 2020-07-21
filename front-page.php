@@ -66,7 +66,7 @@
         <p class="p-top-about--copy u-fade-up">
           正安３年２月（西暦１３０１年）、聖覚法印を開基として、上野国国府の明観上人が一宇を建立、三重山東源院尊乗寺と称しました。応仁の乱で兵火に遇い、のち源誉超順上人によって再興され、浄土宗総本山知恩院第二十七世徳誉光然上人の来賜を仰ぎ浄土宗となり光運寺となりました。
         </p>
-        <div class="c-btn p-top-btn__about u-fade-up"><a href="/kounji/gaiyo/"><div class="c-btn__text">光運寺について</div></a></div>
+        <div class="c-btn p-top-btn__about u-fade-up"><a href="/gaiyo/"><div class="c-btn__text">光運寺について</div></a></div>
       </div>
     </section>
   </div>
@@ -93,7 +93,7 @@
       <div class="p-top-eitai--cont">
         <div class="u-vertical-writing u-font-serif p-top-eitai--subttl u-fade-up">光運寺納骨堂『白蓮』</div>
         <div class="p-top-eitai--copy u-fade-up">永代供養付きの納骨堂で、 個人・夫婦・ご家族でもご利用いただけます。年間管理費不要で生前にお申込みすることができます。 檀信徒以外の方も納骨できますので、お気軽にご相談ください。</div>
-        <div class="c-btn p-top-btn__eitai u-fade-up"><a href="/kounji/eitai/"><div class="c-btn__text">納骨堂・永代供養について</div></a></div>
+        <div class="c-btn p-top-btn__eitai u-fade-up"><a href="/eitai/"><div class="c-btn__text">納骨堂・永代供養について</div></a></div>
       </div>
     </div>
   </section>
@@ -115,7 +115,7 @@
         </div>
         <div class="p-top-info--imgs u-fade-up">
           <div class="p-top-info--banner">
-            <a href="/kounji/butsuji_info/">
+            <a href="/butsuji_info/">
             <picture>
               <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_sogi.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_info_sogi.png" alt="葬儀">
@@ -123,7 +123,7 @@
             </a>
           </div>
           <div class="p-top-info--banner">
-            <a href="/kounji/butsuji_info#hoji">
+            <a href="/butsuji_info#hoji">
               <picture>
                 <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_hoji.png">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_info_hoji.png" alt="法事">
@@ -137,7 +137,7 @@
 
   <section class="p-top-banner">
     <div class="p-top-banner__left u-fade-up">
-      <a href="/kounji/gaiyo/">
+      <a href="/gaiyo/">
         <picture>
           <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_banner_gaiyo.jpg">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_banner_gaiyo.jpg" alt="寺院概要">
@@ -146,7 +146,7 @@
     </div>
     <div class="p-top-banner__right">
       <div class="u-fade-up">
-        <a href="/kounji/nenjyu/">
+        <a href="/nenjyu/">
           <picture>
             <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_banner_nenjyu.jpg">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_banner_nenjyu.jpg" alt="年中行事">
@@ -154,7 +154,7 @@
         </a>
       </div>
       <div class="u-fade-up">
-        <a href="/kounji/butsuzen_wedding/">
+        <a href="/butsuzen_wedding/">
           <picture>
             <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_banner_wedding.jpg">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_banner_wedding.jpg" alt="仏前結婚式">
@@ -195,7 +195,7 @@
           endif;
         ?>
       </div>
-      <div class="p-top-blog--link u-fade-up"><a href="/kounji/blog/">一覧を見る<i class="fas fa-chevron-right p-top-blog--link__brackets"></i></a></div>
+      <div class="p-top-blog--link u-fade-up"><a href="/blog/">一覧を見る<i class="fas fa-chevron-right p-top-blog--link__brackets"></i></a></div>
     </div>
   </section>
 

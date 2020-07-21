@@ -8,8 +8,8 @@
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing">お問い合わせ</div></h1>
 </section>
 
-<section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>お問い合わせ</section>
-
+<section class="c-page-breadcrumbs"><a href="/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>お問い合わせ</section>
+<?php echo do_shortcode('[mwform_formkey key="29"]'); ?><?// 29 27 28 ?>
 <div class="p-comp-wrap">
   <div class="c-page--min-width">
     <section class="p-comp-tel">
@@ -21,7 +21,7 @@
       <div class="c-btn p-contact-tel--btn"><a href="tel:0593523042"><div class="c-btn__text u-font-serif">TEL.059-352-3042</div></a></div>
     </section>
 
-    <section class="p-comp-top"><a href="/kounji/"><div class="p-comp-top__text">トップに戻る</div></a></section>
+    <section class="p-comp-top"><a href="/"><div class="p-comp-top__text">トップに戻る</div></a></section>
   </div>
 </div>
 <?php get_footer(); ?>

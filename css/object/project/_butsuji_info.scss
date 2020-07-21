@@ -103,7 +103,7 @@
       position: relative;
       @include mq(sp) {
         width: $sp_cont;
-        text-align: inherit;
+        // text-align: inherit;
         padding: 45px 0 20px;
       }
     }
@@ -119,19 +119,23 @@
     }
     &--text {
       line-height: 1.9;
+      &__border {
+        text-align: center;
+        img {
+          width: inherit;
+        }
+      }
       @include mq(sp) {
         width: 90%;
         margin: 0 auto;
-        &__border {
-          text-align: center;
-        }
       }
     }
     &--border {
-      width: 2px;
-      height: 40px;
-      background: #000;
-      margin: 40px auto 50px;
+      margin: 40px 0 50px;
+      text-align: center;
+      img {
+        width: inherit;
+      }
     }
   } //.p-butsuji-flow
   &-reason {
@@ -184,6 +188,9 @@
         margin: 67px 0 50px;
         @include offVertical();
         line-height: 1.6;
+      }
+      @include firefox() {
+        width: 120px;
       }
     }
     &--copy {

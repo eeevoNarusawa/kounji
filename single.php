@@ -8,7 +8,7 @@
   <h1><div class="c-page-ttl u-font-serif u-vertical-writing">光運寺ブログ</div></h1>
 </section>
 
-<section class="c-page-breadcrumbs"><a href="/kounji/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span><a href="/kounji/blog">光運寺ブログ</a><span class="c-page-breadcrumbs__arrow">＞</span><?php the_title(); ?></section>
+<section class="c-page-breadcrumbs"><a href="/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span><a href="/blog">光運寺ブログ</a><span class="c-page-breadcrumbs__arrow">＞</span><?php the_title(); ?></section>
 
 <div class="c-page-wrap c-page--min-width">
   <section class="p-single-wrap">
@@ -22,7 +22,7 @@
         <?php the_content(); ?>
       <?php endwhile; ?>
     </div>
-    <div class="p-single-back"><<a href="/kounji/blog/">ブログ一覧に戻る</a></div>
+    <div class="p-single-back"><<a href="/blog/">ブログ一覧に戻る</a></div>
   </section>
 </div>
 <?php get_footer(); ?>

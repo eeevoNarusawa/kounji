@@ -36,6 +36,11 @@
             height: calc(var(--vh, 1vh) * 100 - 95px);
           }
         }
+        @include mq(ie) {
+          img {
+
+          }
+        }
       }
       &__item {
         position: relative;
@@ -230,6 +235,10 @@
         width: 310px;
         height: 310px;
       }
+      @include firefox() {
+        width: 40px;
+        height: 310px;
+      }
     }
     &--copy {
       width: 354px;
@@ -358,6 +367,7 @@
         font-size: 3.2rem;
         margin-left: 10px;
         font-weight: 500;
+        padding: 0 0 50px;
         @include mq(sp) {
           font-size: 2.5rem;
           margin-left: 0;
@@ -374,7 +384,7 @@
     }
     &--conts {
       min-width: 839px;
-      border-bottom: 1px solid #dfdfdf;
+      border-top: 1px solid #dfdfdf;
       margin-top: 70px;
       @include mq(sp) {
         min-width: 100%;
@@ -385,7 +395,7 @@
     &--item {
       @include flex();
       padding: 34px 0;
-      border-top: 1px solid #dfdfdf;
+      border-bottom: 1px solid #dfdfdf;
       @include mq(sp) {
         padding: 28px 0;
       }
