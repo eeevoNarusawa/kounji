@@ -39,6 +39,9 @@ footer {
   }
   &-tel {
     font-size: 1.6rem;
+    a {
+      color: #000;
+    }
     @include mq(sp) {
       width: $sp_cont;
       margin: 4px auto 12px;

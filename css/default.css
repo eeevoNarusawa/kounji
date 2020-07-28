@@ -224,6 +224,10 @@ footer {
   font-size: 1.6rem;
 }
 
+.l-footer-tel a {
+  color: #000;
+}
+
 @media screen and (max-width: 959px) {
   .l-footer-tel {
     width: 90%;
@@ -3540,6 +3544,10 @@ footer {
 @media screen and (max-width: 959px) {
   .p-blog-cont--catch {
     width: 100%;
+    height: auto;
+  }
+  .p-blog-cont--catch img {
+    object-fit: cover;
     height: auto;
   }
 }

@@ -52,6 +52,10 @@
       @include mq(sp) {
         width: 100%;
         height: auto;
+        img {
+          object-fit: cover;
+          height: auto;
+        }
       }
     }
     &--date {
