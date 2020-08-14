@@ -7,7 +7,7 @@
       <a href="/butsuji_info/"><li>仏事のご案内</li></a>
       <a href="/eitai/"><li>納骨堂・永代供養</li></a>
       <a href="/butsuzen_wedding/"><li>仏前結婚式</li></a>
-      <a href="/blog/"><li>ブログ</li></a>
+      <a href="/blog/"><li>お知らせ・ブログ</li></a>
     </ul>
     <div class="nav--icon"><a href="/contact/"><i class="far fa-envelope"></i></a></div>
     <div class="u-font-serif nav--copyright">©️2020 kounji</div>

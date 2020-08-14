@@ -447,7 +447,6 @@ footer {
   nav {
     width: 100%;
     height: 100%;
-    padding-top: 30px;
     background-image: url("../images/sp_nav_bg.jpg");
     background-size: cover;
     background-position: 100% 100%;
@@ -457,13 +456,14 @@ footer {
     z-index: 10;
     transform: translate(100%);
     transition: all .5s;
+    overflow: scroll;
   }
   nav.open {
     transform: translateZ(0);
   }
   .menu-logo {
     width: 149px;
-    margin: 0 0 40px 5%;
+    margin: 40px 0 40px 5%;
   }
   nav ul {
     width: 90%;
@@ -478,7 +478,7 @@ footer {
   }
   .menu-btn {
     width: 90% !important;
-    margin: 40px auto 0;
+    margin: 40px auto;
     border: 1px solid #fff;
   }
   .menu-btn a {
@@ -1171,6 +1171,10 @@ footer {
 .p-top-info--banner {
   width: 500px;
   margin-right: 22px;
+}
+
+.p-top-info--banner img {
+  width: 100%;
 }
 
 @media screen and (max-width: 959px) {

@@ -78,7 +78,6 @@
   nav {
     width: 100%;
     height: 100%;
-    padding-top: 30px;
     background-image: url('../images/sp_nav_bg.jpg');
     background-size: cover;
     background-position: 100% 100%;
@@ -88,13 +87,14 @@
     z-index: 10;
     transform: translate(100%);
     transition: all .5s;
+    overflow: scroll;
   }
   nav.open {
     transform: translateZ(0);
   }
   .menu-logo {
     width: 149px;
-    margin: 0 0 40px 5%;
+    margin: 40px 0 40px 5%;
   }
   nav ul {
     width: $sp_cont;
@@ -109,7 +109,7 @@
   }
   .menu-btn {
     width: $sp_cont!important;
-    margin: 40px auto 0;
+    margin: 40px auto;
     border: 1px solid #fff;
     a {
       color: #fff;

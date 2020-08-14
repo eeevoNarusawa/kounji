@@ -313,6 +313,9 @@
     &--banner {
       width: 500px;
       margin-right: 22px;
+      img {
+        width: 100%;
+      }
       @include mq(sp) {
         width: 90%;
         margin: 0 auto 47px;

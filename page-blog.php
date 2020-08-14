@@ -3,12 +3,12 @@
 <section class="c-page-visual">
   <picture>
     <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_blog_visual.jpg">
-    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/blog_visual.jpg" alt="光運寺ブログ">
+    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/blog_visual.jpg" alt="お知らせ・ブログ">
   </picture>
-  <h1><div class="c-page-ttl u-font-serif u-vertical-writing">光運寺ブログ</div></h1>
+  <h1><div class="c-page-ttl u-font-serif u-vertical-writing">お知らせ・ブログ</div></h1>
 </section>
 
-<section class="c-page-breadcrumbs"><a href="/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>光運寺ブログ</section>
+<section class="c-page-breadcrumbs"><a href="/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span>お知らせ・ブログ</section>
 
 <div class="c-page-wrap">
   <div class="c-page--min-width">

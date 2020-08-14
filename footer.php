@@ -29,7 +29,7 @@
           <a href="/butsuji_info/"><li class="u-font-serif">仏事のご案内</li></a>
           <a href="/eitai/"><li class="u-font-serif">納骨堂・永代供養</li></a>
           <a href="/butsuzen_wedding/"><li class="u-font-serif">仏前結婚式</li></a>
-          <a href="/blog/"><li class="u-font-serif">ブログ</li></a>
+          <a href="/blog/"><li class="u-font-serif">お知らせ・ブログ</li></a>
         </ul>
         <div class="c-btn menu-btn"><a href="/contact/"><div class="c-btn__text">お問い合わせはこちら</div></a></div>
       </nav>

@@ -116,18 +116,12 @@
         <div class="p-top-info--imgs u-fade-up">
           <div class="p-top-info--banner">
             <a href="/butsuji_info/">
-            <picture>
-              <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_sogi.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_info_sogi.png" alt="葬儀">
-            </picture>
             </a>
           </div>
           <div class="p-top-info--banner">
             <a href="/butsuji_info#hoji">
-              <picture>
-                <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_top_info_hoji.png">
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_info_hoji.png" alt="法事">
-              </picture>
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_info_hoji.png" alt="法事">
             </a>
           </div>
         </div>
@@ -167,7 +161,7 @@
   <section class="p-top-blog">
     <div class="p-top-blog--wrap">
       <div class="u-font-serif u-vertical-writing p-top-blog--ttl u-fade-up">
-        <div class="p-top-blog--ttl__main">光運寺ブログ</div>
+        <div class="p-top-blog--ttl__main">お知らせ・ブログ</div>
         <div class="p-top-blog--ttl__sub">Blog</div>
       </div>
       <div class="p-top-blog--conts">

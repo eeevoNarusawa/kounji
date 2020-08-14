@@ -5,10 +5,10 @@
     <source media="(max-width: 959px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp_blog_detail_visual.jpg">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/blog_detail_visual.jpg" alt="<?php the_title(); ?>">
   </picture>
-  <h1><div class="c-page-ttl u-font-serif u-vertical-writing">光運寺ブログ</div></h1>
+  <h1><div class="c-page-ttl u-font-serif u-vertical-writing">お知らせ・ブログ</div></h1>
 </section>
 
-<section class="c-page-breadcrumbs"><a href="/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span><a href="/blog">光運寺ブログ</a><span class="c-page-breadcrumbs__arrow">＞</span><?php the_title(); ?></section>
+<section class="c-page-breadcrumbs"><a href="/">HOME</a><span class="c-page-breadcrumbs__arrow">＞</span><a href="/blog">お知らせ・ブログ</a><span class="c-page-breadcrumbs__arrow">＞</span><?php the_title(); ?></section>
 
 <div class="c-page-wrap c-page--min-width">
   <section class="p-single-wrap">
